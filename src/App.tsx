@@ -192,7 +192,7 @@ function App() {
       {/* Partner Logos Section */}
       <section className="partners-section">
         <div className="partners-container">
-          <div className="partner-logo">Jalhon</div>
+          {/* <div className="partner-logo">Jalhon</div>
           <div className="partner-logo">ROCK TERNAT</div>
           <div className="partner-logo">WANLAND FESTIVAL</div>
           <div className="partner-logo">Cirkel</div>
@@ -201,7 +201,20 @@ function App() {
           <div className="partner-logo">LAUNDRY DAY</div>
           <div className="partner-logo">elrow town</div>
           <div className="partner-logo">CIRQUE MAGIQUE</div>
-          <div className="partner-logo">12INCH LOVERS</div>
+          <div className="partner-logo">12INCH LOVERS</div> */}
+
+
+          <div className="partner-logo"><img src="/references/logo_zillion.jpg" alt="Zillion"/></div>
+          <div className="partner-logo"><img src="/references/logo_rock_ternat.jpg" alt="Rock Ternat"/></div>
+          <div className="partner-logo"><img src="/references/logo_waailand.jpg" alt="Zaailand Festival"/></div>
+          <div className="partner-logo"><img src="/references/logo_tomorrowland.jpg" alt="Tomorrowland"/></div>
+          <div className="partner-logo"><img src="/references/logo_retro_empire.jpg" alt="Retro Empire"/></div>
+          <div className="partner-logo"><img src="/references/logo_tesla.jpg" alt="Tesla"/></div>
+          <div className="partner-logo"><img src="/references/logo_laundry_day.jpg" alt="Laundry Day"/></div>
+          <div className="partner-logo"><img src="/references/logo_elrow_town.jpg" alt="Elrow Town"/></div>
+          <div className="partner-logo"><img src="/references/logo_cirque_magique.jpg" alt="Cirque Magique"/></div>
+          <div className="partner-logo"><img src="/references/logo_12_inch_lovers.jpg" alt="12 Inch Lovers"/></div>
+          <div className="partner-logo"><img src="/references/logo_many_more.jpg" alt="And Many More"/></div>
         </div>
       </section>
 
