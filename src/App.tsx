@@ -6,9 +6,9 @@ function App() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const heroImages = [
-    '/carousel1.jpg?auto=compress&cs=tinysrgb&w=1920',
-    '/carousel2.jpg?auto=compress&cs=tinysrgb&w=1920',
-    '/carousel3.jpg?auto=compress&cs=tinysrgb&w=1920'
+    '/carousel/carousel1.jpg?auto=compress&cs=tinysrgb&w=1920',
+    '/carousel/carousel2.jpg?auto=compress&cs=tinysrgb&w=1920',
+    '/carousel/carousel3.jpg?auto=compress&cs=tinysrgb&w=1920'
   ];
 
   const acts = [
