@@ -6,29 +6,29 @@ function App() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const heroImages = [
-    '/carousel/carousel1.jpg?auto=compress&cs=tinysrgb&w=1920',
-    '/carousel/carousel2.jpg?auto=compress&cs=tinysrgb&w=1920',
-    '/carousel/carousel3.jpg?auto=compress&cs=tinysrgb&w=1920'
+    'carousel/carousel1.jpg?auto=compress&cs=tinysrgb&w=1920',
+    'carousel/carousel2.jpg?auto=compress&cs=tinysrgb&w=1920',
+    'carousel/carousel3.jpg?auto=compress&cs=tinysrgb&w=1920'
   ];
 
   const acts = [
-    { id: 'lord-bubbleton', name: 'Lord Bubbleton', url: '/acts/lord_bubbleton.jpg',
+    { id: 'lord-bubbleton', name: 'Lord Bubbleton', url: 'acts/lord_bubbleton.jpg',
       description: 'Een charmante bellenblazer die uw gasten betovert met magische zeepbellen en interactieve performances.' },
     { id: 'hdmi', name: 'HDMI', url: '/acts/hdmi.jpg',
       description: 'Een energieke muzikale act die uw event omtovert tot een spetterende show vol ritme en entertainment.' },
-    { id: 'kapitein-langpoot', name: 'Kapitein Langpoot', url: '/acts/kapitein_langepoot.jpg',
+    { id: 'kapitein-langpoot', name: 'Kapitein Langpoot', url: 'acts/kapitein_langepoot.jpg',
       description: 'Een imposante steltenact die indruk maakt met zijn lengte en charisma, perfect voor festivals en events.' },
-    { id: 'lady-bubbleton', name: 'Lady Bubbleton', url: '/acts/lady_bubbleton.jpg',
+    { id: 'lady-bubbleton', name: 'Lady Bubbleton', url: 'acts/lady_bubbleton.jpg',
       description: 'De elegante tegenhanger van Lord Bubbleton, die verfijnde bellenshows verzorgt voor een exclusief publiek.' },
-    { id: 'the-jester', name: 'The Jester', url: '/acts/the_jester.jpg', 
+    { id: 'the-jester', name: 'The Jester', url: 'acts/the_jester.jpg', 
       description: 'Een speelse entertainer die jongleren, acrobatiek en humor combineert tot een onvergetelijke show.' },
-    { id: 'dr-steam', name: 'Dr. Steam', url: '/acts/dr_steam.jpg',
+    { id: 'dr-steam', name: 'Dr. Steam', url: 'acts/dr_steam.jpg',
       description: 'Een steampunk karakter dat wetenschap en theater samenbrengt in een unieke performance.' },
-    { id: 'bobby-bell', name: 'Bobby Bell', url: '/acts/bobby_bell.jpg',
+    { id: 'bobby-bell', name: 'Bobby Bell', url: 'acts/bobby_bell.jpg',
       description: 'Een klassieke straatartiest die met zijn muziek en persoonlijkheid iedereen weet te vermaken.' },
-    { id: 'jack-pumpkin', name: 'Jack Pumpkin', url: '/acts/jack_pumpkin.jpg',
+    { id: 'jack-pumpkin', name: 'Jack Pumpkin', url: 'acts/jack_pumpkin.jpg',
       description: 'Een mysterieus Halloween-karakter perfect voor spooky events en themafeesten.' },
-    { id: 'more', name: 'En meer...', url: '/acts/more.jpg',
+    { id: 'more', name: 'En meer...', url: 'acts/more.jpg',
       description: 'Ontdek nog veel meer unieke acts en performers die perfect passen bij uw event. Neem contact op voor het volledige overzicht.' }
   ];
 
@@ -124,13 +124,13 @@ function App() {
             <div className="col-lg-6">
               <div className="info-circles">
                 <div className="circle-wrapper">
-                  <img src="/circle1.jpg?auto=compress&cs=tinysrgb&w=300" alt="Circle 1" className="info-circle" />
+                  <img src="circle1.jpg?auto=compress&cs=tinysrgb&w=300" alt="Circle 1" className="info-circle" />
                 </div>
                 <div className="circle-wrapper">
-                  <img src="/circle2.jpg?auto=compress&cs=tinysrgb&w=300" alt="Circle 2" className="info-circle" />
+                  <img src="circle2.jpg?auto=compress&cs=tinysrgb&w=300" alt="Circle 2" className="info-circle" />
                 </div>
                 <div className="circle-wrapper">
-                  <img src="/circle3.jpg?auto=compress&cs=tinysrgb&w=300" alt="Circle 3" className="info-circle" />
+                  <img src="circle3.jpg?auto=compress&cs=tinysrgb&w=300" alt="Circle 3" className="info-circle" />
                 </div>
               </div>
             </div>
@@ -204,17 +204,17 @@ function App() {
           <div className="partner-logo">12INCH LOVERS</div> */}
 
 
-          <div className="partner-logo"><img src="/references/logo_zillion.jpg" alt="Zillion"/></div>
-          <div className="partner-logo"><img src="/references/logo_rock_ternat.jpg" alt="Rock Ternat"/></div>
-          <div className="partner-logo"><img src="/references/logo_waailand.jpg" alt="Zaailand Festival"/></div>
-          <div className="partner-logo"><img src="/references/logo_tomorrowland.jpg" alt="Tomorrowland"/></div>
-          <div className="partner-logo"><img src="/references/logo_retro_empire.jpg" alt="Retro Empire"/></div>
-          <div className="partner-logo"><img src="/references/logo_tesla.jpg" alt="Tesla"/></div>
-          <div className="partner-logo"><img src="/references/logo_laundry_day.jpg" alt="Laundry Day"/></div>
-          <div className="partner-logo"><img src="/references/logo_elrow_town.jpg" alt="Elrow Town"/></div>
-          <div className="partner-logo"><img src="/references/logo_cirque_magique.jpg" alt="Cirque Magique"/></div>
-          <div className="partner-logo"><img src="/references/logo_12_inch_lovers.jpg" alt="12 Inch Lovers"/></div>
-          <div className="partner-logo"><img src="/references/logo_many_more.jpg" alt="And Many More"/></div>
+          <div className="partner-logo"><img src="references/logo_zillion.jpg" alt="Zillion"/></div>
+          <div className="partner-logo"><img src="references/logo_rock_ternat.jpg" alt="Rock Ternat"/></div>
+          <div className="partner-logo"><img src="references/logo_waailand.jpg" alt="Zaailand Festival"/></div>
+          <div className="partner-logo"><img src="references/logo_tomorrowland.jpg" alt="Tomorrowland"/></div>
+          <div className="partner-logo"><img src="references/logo_retro_empire.jpg" alt="Retro Empire"/></div>
+          <div className="partner-logo"><img src="references/logo_tesla.jpg" alt="Tesla"/></div>
+          <div className="partner-logo"><img src="references/logo_laundry_day.jpg" alt="Laundry Day"/></div>
+          <div className="partner-logo"><img src="references/logo_elrow_town.jpg" alt="Elrow Town"/></div>
+          <div className="partner-logo"><img src="references/logo_cirque_magique.jpg" alt="Cirque Magique"/></div>
+          <div className="partner-logo"><img src="references/logo_12_inch_lovers.jpg" alt="12 Inch Lovers"/></div>
+          <div className="partner-logo"><img src="references/logo_many_more.jpg" alt="And Many More"/></div>
         </div>
       </section>
 
