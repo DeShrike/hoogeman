@@ -143,7 +143,7 @@ function App() {
         <div className="container">
           <div className="acts-grid">
             {acts.map((act) => (
-              <div key={act.id} className="act-item" onClick={() => setActiveAct(act.id)}>
+              <div key={act.id} className={`act-item`}  onClick={() => setActiveAct(act.id)}>
                 <div className="act-circle">
                   <img src={act.url} alt={act.name} />
                 </div>
