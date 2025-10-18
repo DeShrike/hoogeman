@@ -14,7 +14,7 @@ function App() {
   const acts = [
     { id: 'lord-bubbleton', name: 'Lord Bubbleton', url: 'acts/lord_bubbleton.jpg',
       description: 'Een charmante bellenblazer die uw gasten betovert met magische zeepbellen en interactieve performances.' },
-    { id: 'hdmi', name: 'HDMI', url: '/acts/hdmi.jpg',
+    { id: 'hdmi', name: 'HDMI', url: 'acts/hdmi.jpg',
       description: 'Een energieke muzikale act die uw event omtovert tot een spetterende show vol ritme en entertainment.' },
     { id: 'kapitein-langpoot', name: 'Kapitein Langpoot', url: 'acts/kapitein_langepoot.jpg',
       description: 'Een imposante steltenact die indruk maakt met zijn lengte en charisma, perfect voor festivals en events.' },
@@ -46,7 +46,7 @@ function App() {
       <nav className="navbar navbar-expand-lg navbar-dark fixed-top">
         <div className="container">
           <a className="navbar-brand" href="#home">
-            <img src="/logo.png" alt="Hoogeman" className="logo" />
+            <img src="./logo.png" alt="Hoogeman" className="logo" />
           </a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span className="navbar-toggler-icon"></span>

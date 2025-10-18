@@ -258,7 +258,7 @@ body {
 /* Acts Section */
 .acts-section {
   padding: 8rem 0;
-  background: url('acts_bg.jpg?auto=compress&cs=tinysrgb&w=1920');
+  background: url('./acts_bg.jpg?auto=compress&cs=tinysrgb&w=1920');
   background-size: cover;
 
   width: 100%;
@@ -452,7 +452,7 @@ body {
 /* Contact Section */
 .contact-section {
   padding: 0;
-  background: url('contact_bg.jpg?auto=compress&cs=tinysrgb&w=1920');
+  background: url('./contact_bg.jpg?auto=compress&cs=tinysrgb&w=1920');
   background-size: cover;
   background-position: center;
   background-position-x: 200px;
