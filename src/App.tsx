@@ -113,7 +113,7 @@ function App() {
       <section id="info" className="info-section">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-lg-6">
+            <div className="col-lg-4">
               <div className="info-content">
                 <h2 className="info-subtitle">KWALITEITSVOL ENTERTAINMENT</h2>
                 <h3 className="info-heading">Door 20 jaar ervaring</h3>

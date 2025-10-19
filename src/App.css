@@ -189,13 +189,36 @@ body {
 /* Info Section */
 .info-section {
   padding: 8rem 0;
-  background: linear-gradient(180deg, var(--white-bg) 0%, rgba(254, 254, 254, 0.95) 100%);
   /* background: url('/contact_bg.jpg?auto=compress&cs=tinysrgb&w=1920');
   background-size: cover;
   background-position: center; */
   max-width: 1366px;
   margin: 0 auto;
   padding: 2rem 0;
+  /* background-image: url('../info_bg.jpg?auto=compress&cs=tinysrgb&w=1920');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain; */
+
+  /* background: linear-gradient(90deg, var(--white-bg) 0%, 
+  rgba(255, 255, 0, 0.95) 20% ); */
+
+  background: 
+    linear-gradient(90deg, 
+    var(--white-bg) 0%,
+    var(--white-bg) 60%,
+        rgba(255, 255, 255, 0.0) 80%, 
+    rgba(255, 255, 255, 0.0) 100%), 
+    url('../info_bg.jpg?auto=compress&cs=tinysrgb&w=1920');
+
+  /* background: 
+    url('../info_bg.jpg?auto=compress&cs=tinysrgb&w=1920'),
+    linear-gradient(90deg, var(--white-bg) 0%, rgba(255, 255, 255, 0.9) 60%); */
+
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-blend-mode: dqrken;
 }
 
 .info-content {
