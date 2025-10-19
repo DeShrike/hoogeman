@@ -4,6 +4,7 @@ import './App.css';
 function App() {
   const [activeAct, setActiveAct] = useState<string | null>(null);
   const [currentSlide, setCurrentSlide] = useState(0);
+  const [autoCarousel, setAutoCarousel] = useState(true);
 
   const heroImages = [
     'carousel/carousel1.jpg?auto=compress&cs=tinysrgb&w=1920',
@@ -34,11 +35,23 @@ function App() {
 
   const handleNextSlide = () => {
     setCurrentSlide((prev) => (prev + 1) % heroImages.length);
+    setAutoCarousel(false);
   };
 
   const handlePrevSlide = () => {
     setCurrentSlide((prev) => (prev - 1 + heroImages.length) % heroImages.length);
+    setAutoCarousel(false);
   };
+
+  function nextSlide()
+  {
+    if (autoCarousel) {
+      let n = (currentSlide + 1) % heroImages.length
+      setCurrentSlide(n);
+    }
+  }
+
+  setTimeout(nextSlide, 5000);
 
   return (
     <div className="app">
