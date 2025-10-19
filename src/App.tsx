@@ -134,7 +134,8 @@ function App() {
                 </p>
               </div>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-1"></div>
+            <div className="col-lg-4">
               <div className="info-circles">
                 <div className="circle-wrapper">
                   <img src="circle1.jpg?auto=compress&cs=tinysrgb&w=300" alt="Circle 1" className="info-circle" />
