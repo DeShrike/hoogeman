@@ -455,6 +455,17 @@ body {
   animation: fadeIn 0.3s ease;
 }
 
+.act-img-wrapper
+{
+  display: flex;
+  justify-content: left;
+  gap: 1rem;
+}
+.act-modal-img {
+  text-align: right;
+
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
