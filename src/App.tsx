@@ -7,9 +7,21 @@ function App() {
   const [autoCarousel, setAutoCarousel] = useState(true);
 
   const heroImages = [
-    'carousel/carousel1.jpg?auto=compress&cs=tinysrgb&w=1920',
-    'carousel/carousel2.jpg?auto=compress&cs=tinysrgb&w=1920',
-    'carousel/carousel3.jpg?auto=compress&cs=tinysrgb&w=1920'
+    'carousel/Stiltwalker_Hoogeman_Lord_Bubbleton.jpg?auto=compress&cs=tinysrgb&w=1920',
+    'carousel/Artist_Hoogeman_Fire_Eating.jpg?auto=compress&cs=tinysrgb&w=1920',
+    'carousel/Stiltwalker_Hoogeman_Lady_Bubbleton.jpg?auto=compress&cs=tinysrgb&w=1920'
+  ];
+
+  const heroImagesMd = [
+    'carousel/Stiltwalker_Hoogeman_Lord_Bubbleton_md.jpg?auto=compress&cs=tinysrgb&w=1920',
+    'carousel/Artist_Hoogeman_Fire_Eating_md.jpg?auto=compress&cs=tinysrgb&w=1920',
+    'carousel/Stiltwalker_Hoogeman_Lady_Bubbleton_md.jpg?auto=compress&cs=tinysrgb&w=1920'
+  ];
+
+  const heroImagesSm = [
+    'carousel/Stiltwalker_Hoogeman_Lord_Bubbleton_sm.jpg?auto=compress&cs=tinysrgb&w=1920',
+    'carousel/Artist_Hoogeman_Fire_Eating_sm.jpg?auto=compress&cs=tinysrgb&w=1920',
+    'carousel/Stiltwalker_Hoogeman_Lady_Bubbleton_sm.jpg?auto=compress&cs=tinysrgb&w=1920'
   ];
 
   const acts = [
@@ -67,16 +79,16 @@ function App() {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <a className="nav-link" href="#home">Home</a>
+                <a className="nav-link" href="#home" title="Home">Home</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#info">Info</a>
+                <a className="nav-link" href="#info" title="Info">Info</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#acts">Acts</a>
+                <a className="nav-link" href="#acts" title="Acts">Acts</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#contact">Contact</a>
+                <a className="nav-link" href="#contact" title="Contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -86,8 +98,24 @@ function App() {
       {/* Hero Section */}
       <section id="home" className="hero-section">
         <div id="heroCarousel" className="carousel slide carousel-fade" data-bs-ride="carousel">
-          <div className="carousel-inner">
+          <div className="carousel-inner carousel-lg">
             {heroImages.map((img, index) => (
+              <div key={index} className={`carousel-item ${index === currentSlide ? 'active' : ''}`}>
+                <img src={img} className="d-block w-100" alt={`Slide ${index + 1}`} />
+              </div>
+            ))}
+          </div>
+
+          <div className="carousel-inner carousel-md">
+            {heroImagesMd.map((img, index) => (
+              <div key={index} className={`carousel-item ${index === currentSlide ? 'active' : ''}`}>
+                <img src={img} className="d-block w-100" alt={`Slide ${index + 1}`} />
+              </div>
+            ))}
+          </div>
+
+          <div className="carousel-inner carousel-sm">
+            {heroImagesSm.map((img, index) => (
               <div key={index} className={`carousel-item ${index === currentSlide ? 'active' : ''}`}>
                 <img src={img} className="d-block w-100" alt={`Slide ${index + 1}`} />
               </div>
@@ -228,7 +256,6 @@ function App() {
           <div className="partner-logo"><img src="references/logo_elrow_town.jpg" alt="Elrow Town"/></div>
           <div className="partner-logo"><img src="references/logo_cirque_magique.jpg" alt="Cirque Magique"/></div>
           <div className="partner-logo"><img src="references/logo_12_inch_lovers.jpg" alt="12 Inch Lovers"/></div>
-          <div className="partner-logo"><img src="references/logo_many_more.jpg" alt="And Many More"/></div>
         </div>
       </section>
 
