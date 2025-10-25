@@ -719,12 +719,45 @@ body {
   .hero-title {
     font-size: 4rem;
   }
+  
+  .navbar
+  {
+    /* background-color: red; */
+    padding: unset;
+  }
 
+  .navbar-brand .logo {
+    margin-left: unset;
+  }
+
+  .navbar-nav li a {
+    background-color: var(--light-blue);
+  }
+
+  .navbar-collapse {
+    padding-left: 200px;
+    padding-right: 0;
+  }
+  
   .info-section,
   .acts-section {
     padding: 4rem 0;
   }
 
+  .info-section {
+  /* background: linear-gradient(90deg,
+     (--white-bg) 0%, 
+     var(--white-bg) 60%, 
+     rgba(255, 255, 255, 0.0) 80%,
+     rgba(255, 255, 255, 0.0) 100%); */
+    background: white;
+
+    }
+
+  .info-content {
+    width: unset;
+    margin-left: unset;
+  }  
   .info-circles {
     margin-top: 3rem;
   }
@@ -744,6 +777,11 @@ body {
     background: rgba(5, 159, 159, 0.9);
     justify-content: center;
   }
+
+  .contact-section {
+  background-position-x: 0px;
+
+}
 
   .contact-content {
     max-width: 100%;
