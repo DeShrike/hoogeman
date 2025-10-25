@@ -64,9 +64,9 @@ body {
   /* justify-content: space-around; */
   width: 100%;
   display: flex;
-  align-items: center; 
+  align-items: center;
 }
-        
+
 .navbar-nav .nav-link {
   font-family: 'Roboto Condensed', sans-serif;
   letter-spacing: 0;
@@ -119,6 +119,19 @@ body {
 .carousel-item {
   height: 100%;
   position: relative;
+
+}
+
+.carousel-lg {
+  display: block;
+}
+
+.carousel-md {
+  display: none;
+}
+
+.carousel-sm {
+  display: none;
 }
 
 .carousel-item::before {
@@ -128,7 +141,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(180deg, rgba(5, 159, 159, 0.4) 0%, rgba(5, 159, 159, 0.6) 100%);
+  background: linear-gradient(35deg, rgba(5, 159, 159, 0.9) 0%, rgba(5, 159, 159, 0.9) 20%, rgba(5, 159, 159, 0.1) 100%);
   z-index: 1;
 }
 
@@ -168,6 +181,7 @@ body {
     opacity: 0;
     transform: translateY(30px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -192,12 +206,12 @@ body {
   max-width: 1366px;
   margin: 0 auto;
   padding: 2rem 0;
-  background: 
-    linear-gradient(90deg, 
-    var(--white-bg) 0%,
-    var(--white-bg) 60%,
-  rgba(255, 255, 255, 0.0) 80%, 
-  rgba(255, 255, 255, 0.0) 100%), 
+  background:
+    linear-gradient(90deg,
+      var(--white-bg) 0%,
+      var(--white-bg) 60%,
+      rgba(255, 255, 255, 0.0) 80%,
+      rgba(255, 255, 255, 0.0) 100%),
     url('../info_bg.jpg?auto=compress&cs=tinysrgb&w=1920');
 
   background-position: right;
@@ -266,17 +280,20 @@ body {
 }
 
 @keyframes float {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: translateY(0);
   }
+
   50% {
     transform: translateY(-20px);
   }
 }
 
 .info-circle {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   object-fit: cover;
   border: 5px solid var(--light-blue);
@@ -302,13 +319,13 @@ body {
   max-width: 1366px;
   margin: 0 auto;
 
-  
+
   -moz-transform: scaleX(-1);
-    -o-transform: scaleX(-1);
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-    filter: FlipH;
-    -ms-filter: "FlipH";
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
 
 
   background-blend-mode: multiply;
@@ -326,7 +343,8 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent overlay */
+  background-color: rgba(255, 255, 255, 0.9);
+  /* Semi-transparent overlay */
   /* background: url('data:image/svg+xml,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="1" fill="rgba(255,255,255,0.1)"/></svg>'); */
   opacity: 0.5;
 }
@@ -337,12 +355,12 @@ body {
   margin: 0 auto;
 
   -moz-transform: scaleX(-1);
-    -o-transform: scaleX(-1);
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 
-    display: grid;
-    flex-wrap: wrap;
+  display: grid;
+  flex-wrap: wrap;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 3rem;
   padding: 2rem;
@@ -368,7 +386,7 @@ body {
   height: 180px;
   border-radius: 50%;
   overflow: hidden;
-  border: 5px solid var(--white-bg);
+  border: 4px solid var(--light-blue);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
   margin-bottom: 1rem;
@@ -408,16 +426,18 @@ body {
   line-height: 1.4;
   color: var(--white-bg);
   text-align: center;
-  font-weight: 600;
+  font-weight: 200;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 
   background-color: var(--light-blue);
-  padding: 10px;
+  padding: 11px;
   padding-left: 20px;
   padding-right: 20px;
-  border-radius: 20px;
+  border-radius: 25px;
   margin-top: -40px;
   z-index: 900;
+  width: 210px;
+  height: 50px;
 }
 
 /* Act Modal */
@@ -435,10 +455,22 @@ body {
   animation: fadeIn 0.3s ease;
 }
 
+.act-img-wrapper
+{
+  display: flex;
+  justify-content: left;
+  gap: 1rem;
+}
+.act-modal-img {
+  text-align: right;
+
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
@@ -460,6 +492,7 @@ body {
     transform: translateY(50px);
     opacity: 0;
   }
+
   to {
     transform: translateY(0);
     opacity: 1;
@@ -518,15 +551,15 @@ body {
   align-items: center;
 
 
-    margin: 0 auto;
+  margin: 0 auto;
 
   width: 100%;
-  max-width:1366px;
+  max-width: 1366px;
 
   -moz-transform: scaleX(-1);
-    -o-transform: scaleX(-1);
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 
 }
 
@@ -537,14 +570,14 @@ body {
   /* padding: 4rem 15px; */
 
   -moz-transform: scaleX(-1);
-    -o-transform: scaleX(-1);
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 
 .contact-overlay {
   background: linear-gradient(90deg, rgba(5, 159, 159, 0) 0%,
-  rgba(5, 159, 159, 1) 70%); 
+      rgba(5, 159, 159, 1) 70%);
   padding: 4rem;
   display: flex;
   justify-content: flex-end;
@@ -643,9 +676,9 @@ body {
   transition: all 0.3s ease;
 }
 
-  .partner-logo img {
-    max-width: 100px;
-  }
+.partner-logo img {
+  max-width: 100px;
+}
 
 
 .partner-logo:hover {
@@ -664,7 +697,7 @@ body {
 }
 
 .footer-container {
-  max-width:1366px;
+  max-width: 1366px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -714,14 +747,59 @@ body {
   margin: 0;
 }
 
+/* @media (max-width: 991px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+} */
+
+/* Responsive Design */
+@media (max-width: 1023px) {
+  .info-content {
+    margin-left: 0px;
+  }
+
+  .info-circles {
+    /* width: 200px;
+    height: 200px; */
+    gap: 6rem;
+    margin-top: 0rem;
+  }
+
+  .info-section
+  {
+    background-position: right;
+  }
+}
+
 /* Responsive Design */
 @media (max-width: 991px) {
   .hero-title {
     font-size: 4rem;
   }
-  
-  .navbar
-  {
+
+  .navbar {
     /* background-color: red; */
     padding: unset;
   }
@@ -731,34 +809,45 @@ body {
   }
 
   .navbar-nav li a {
-    background-color: var(--light-blue);
+    /* background-color: var(--light-blue); */
+    background: linear-gradient(180deg, rgba(5, 159, 159, 0.8) 0%, rgba(5, 159, 159, 0.6) 100%);
+    backdrop-filter: blur(10px);
   }
 
   .navbar-collapse {
     padding-left: 200px;
     padding-right: 0;
   }
-  
+
+  .carousel-lg {
+    display: none;
+  }
+
+  .carousel-md {
+    display: block;
+  }
+
+  .carousel-sm {
+    display: none;
+  }
+
   .info-section,
   .acts-section {
     padding: 4rem 0;
   }
 
   .info-section {
-  /* background: linear-gradient(90deg,
-     (--white-bg) 0%, 
-     var(--white-bg) 60%, 
-     rgba(255, 255, 255, 0.0) 80%,
-     rgba(255, 255, 255, 0.0) 100%); */
     background: white;
-
-    }
+  }
 
   .info-content {
     width: unset;
     margin-left: unset;
-  }  
+    /* background-color: red; */
+  }
+
   .info-circles {
+    gap: 3rem;
     margin-top: 3rem;
   }
 
@@ -779,9 +868,9 @@ body {
   }
 
   .contact-section {
-  background-position-x: 0px;
+    background-position-x: 0px;
 
-}
+  }
 
   .contact-content {
     max-width: 100%;
@@ -795,6 +884,29 @@ body {
 @media (max-width: 768px) {
   .hero-title {
     font-size: 3rem;
+  }
+
+  .hero-content {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    /* transform: translate(-47%, -50%); */
+    z-index: 10;
+    text-align: center;
+    width: 90%;
+    /* max-width: 1200px; */
+  }
+
+  .carousel-lg {
+    display: none;
+  }
+
+  .carousel-md {
+    display: none;
+  }
+
+  .carousel-sm {
+    display: block;
   }
 
   .info-subtitle {
@@ -914,9 +1026,12 @@ html {
 
 /* Loading Animation */
 @keyframes pulse {
-  0%, 100% {
+
+  0%,
+  100% {
     opacity: 1;
   }
+
   50% {
     opacity: 0.5;
   }

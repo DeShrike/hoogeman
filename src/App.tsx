@@ -7,29 +7,41 @@ function App() {
   const [autoCarousel, setAutoCarousel] = useState(true);
 
   const heroImages = [
-    'carousel/carousel1.jpg?auto=compress&cs=tinysrgb&w=1920',
-    'carousel/carousel2.jpg?auto=compress&cs=tinysrgb&w=1920',
-    'carousel/carousel3.jpg?auto=compress&cs=tinysrgb&w=1920'
+    'carousel/Stiltwalker_Hoogeman_Lord_Bubbleton.jpg?auto=compress&cs=tinysrgb&w=1920',
+    'carousel/Artist_Hoogeman_Fire_Eating.jpg?auto=compress&cs=tinysrgb&w=1920',
+    'carousel/Stiltwalker_Hoogeman_Lady_Bubbleton.jpg?auto=compress&cs=tinysrgb&w=1920'
+  ];
+
+  const heroImagesMd = [
+    'carousel/Stiltwalker_Hoogeman_Lord_Bubbleton_md.jpg?auto=compress&cs=tinysrgb&w=1920',
+    'carousel/Artist_Hoogeman_Fire_Eating_md.jpg?auto=compress&cs=tinysrgb&w=1920',
+    'carousel/Stiltwalker_Hoogeman_Lady_Bubbleton_md.jpg?auto=compress&cs=tinysrgb&w=1920'
+  ];
+
+  const heroImagesSm = [
+    'carousel/Stiltwalker_Hoogeman_Lord_Bubbleton_sm.jpg?auto=compress&cs=tinysrgb&w=1920',
+    'carousel/Artist_Hoogeman_Fire_Eating_sm.jpg?auto=compress&cs=tinysrgb&w=1920',
+    'carousel/Stiltwalker_Hoogeman_Lady_Bubbleton_sm.jpg?auto=compress&cs=tinysrgb&w=1920'
   ];
 
   const acts = [
-    { id: 'lord-bubbleton', name: 'Lord Bubbleton', url: 'acts/lord_bubbleton.jpg',
+    { id: 'lord-bubbleton', name: 'Lord Bubbleton', url: 'acts/Festival_Lord_Bubbleton_Zeepbelen_Steltenloper.jpg',
       description: 'Een charmante bellenblazer die uw gasten betovert met magische zeepbellen en interactieve performances.' },
-    { id: 'hdmi', name: 'HDMI', url: 'acts/hdmi.jpg',
+    { id: 'hdmi', name: 'HDMI', url: 'acts/Steltenloper_Hdmi_Fiets_Disco_Party.jpg',
       description: 'Een energieke muzikale act die uw event omtovert tot een spetterende show vol ritme en entertainment.' },
-    { id: 'kapitein-langpoot', name: 'Kapitein Langpoot', url: 'acts/kapitein_langepoot.jpg',
+    { id: 'kapitein-langpoot', name: 'Kapitein Langpoot', url: 'acts/Steltenloper_Piraat_Animatie_Hoogeman.jpg',
       description: 'Een imposante steltenact die indruk maakt met zijn lengte en charisma, perfect voor festivals en events.' },
-    { id: 'lady-bubbleton', name: 'Lady Bubbleton', url: 'acts/lady_bubbleton.jpg',
+    { id: 'lady-bubbleton', name: 'Lady Bubbleton', url: 'acts/Lady_Bubbleton_Stelten_Act_Festival.jpg',
       description: 'De elegante tegenhanger van Lord Bubbleton, die verfijnde bellenshows verzorgt voor een exclusief publiek.' },
-    { id: 'the-jester', name: 'The Jester', url: 'acts/the_jester.jpg', 
+    { id: 'the-jester', name: 'The Jester', url: 'acts/Jester_Stelten_Animatie_Stadsfeest_Straattheater.jpg', 
       description: 'Een speelse entertainer die jongleren, acrobatiek en humor combineert tot een onvergetelijke show.' },
-    { id: 'dr-steam', name: 'Dr. Steam', url: 'acts/dr_steam.jpg',
+    { id: 'dr-steam', name: 'Dr. Steam', url: 'acts/Vuurshow_Steampunk_Act_Zeepbellen.jpg',
       description: 'Een steampunk karakter dat wetenschap en theater samenbrengt in een unieke performance.' },
-    { id: 'bobby-bell', name: 'Bobby Bell', url: 'acts/bobby_bell.jpg',
+    { id: 'bobby-bell', name: 'Bobby Bell', url: 'acts/Bobby_Bell_Zeepbellen_Workshop_Kinderanimatie.jpg',
       description: 'Een klassieke straatartiest die met zijn muziek en persoonlijkheid iedereen weet te vermaken.' },
-    { id: 'jack-pumpkin', name: 'Jack Pumpkin', url: 'acts/jack_pumpkin.jpg',
+    { id: 'jack-pumpkin', name: 'Jack Pumpkin', url: 'acts/Steltenloper_Halloween_Pompoen_Act_Straattheater.jpg',
       description: 'Een mysterieus Halloween-karakter perfect voor spooky events en themafeesten.' },
-    { id: 'more', name: 'En meer...', url: 'acts/more.jpg',
+    { id: 'more', name: 'En meer...', url: 'acts/Hosting_Act_Straattheater_Animatie.jpg',
       description: 'Ontdek nog veel meer unieke acts en performers die perfect passen bij uw event. Neem contact op voor het volledige overzicht.' }
   ];
 
@@ -67,16 +79,16 @@ function App() {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <a className="nav-link" href="#home">Home</a>
+                <a className="nav-link" href="#home" title="Home">Home</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#info">Info</a>
+                <a className="nav-link" href="#info" title="Info">Info</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#acts">Acts</a>
+                <a className="nav-link" href="#acts" title="Acts">Acts</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#contact">Contact</a>
+                <a className="nav-link" href="#contact" title="Contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -86,8 +98,24 @@ function App() {
       {/* Hero Section */}
       <section id="home" className="hero-section">
         <div id="heroCarousel" className="carousel slide carousel-fade" data-bs-ride="carousel">
-          <div className="carousel-inner">
+          <div className="carousel-inner carousel-lg">
             {heroImages.map((img, index) => (
+              <div key={index} className={`carousel-item ${index === currentSlide ? 'active' : ''}`}>
+                <img src={img} className="d-block w-100" alt={`Slide ${index + 1}`} />
+              </div>
+            ))}
+          </div>
+
+          <div className="carousel-inner carousel-md">
+            {heroImagesMd.map((img, index) => (
+              <div key={index} className={`carousel-item ${index === currentSlide ? 'active' : ''}`}>
+                <img src={img} className="d-block w-100" alt={`Slide ${index + 1}`} />
+              </div>
+            ))}
+          </div>
+
+          <div className="carousel-inner carousel-sm">
+            {heroImagesSm.map((img, index) => (
               <div key={index} className={`carousel-item ${index === currentSlide ? 'active' : ''}`}>
                 <img src={img} className="d-block w-100" alt={`Slide ${index + 1}`} />
               </div>
@@ -135,16 +163,16 @@ function App() {
               </div>
             </div>
             <div className="col-lg-1"></div>
-            <div className="col-lg-4">
+            <div className="col-lg-5">
               <div className="info-circles">
                 <div className="circle-wrapper">
-                  <img src="circle1.jpg?auto=compress&cs=tinysrgb&w=300" alt="Circle 1" className="info-circle" />
+                  <img src="Stelten_Jongleren_Clown_Hoogeman.jpg" alt="KWALITEITSVOL ENTERTAINMENT" className="info-circle" />
                 </div>
                 <div className="circle-wrapper">
-                  <img src="circle2.jpg?auto=compress&cs=tinysrgb&w=300" alt="Circle 2" className="info-circle" />
+                  <img src="Jester_Steltenloper_Detail_Kostuum.jpg" alt="EIGEN CREATIES EN KOSTUUMONTWERP" className="info-circle" />
                 </div>
                 <div className="circle-wrapper">
-                  <img src="circle3.jpg?auto=compress&cs=tinysrgb&w=300" alt="Circle 3" className="info-circle" />
+                  <img src="Uniek_evenement_Op_Maat.jpg" alt="UNIEKE BELEVING OP MAAT" className="info-circle" />
                 </div>
               </div>
             </div>
@@ -176,10 +204,14 @@ function App() {
           <div className="act-modal-content" onClick={(e) => e.stopPropagation()}>
             <button className="act-modal-close" onClick={() => setActiveAct(null)}>&times;</button>
             <h2>{acts.find(a => a.id === activeAct)?.name}</h2>
-            <p>{acts.find(a => a.id === activeAct)?.description}</p>
+            <div className="act-img-wrapper">
+            <img className="act-modal-img" src={acts.find(a => a.id === activeAct)?.url} />
+            <p>{acts.find(a => a.id === activeAct)?.description ?? ""}</p>
+            </div>
+            {/* {<p dangerouslySetInnerHTML={{ __html : acts.find(a => a.id === activeAct)?.description ?? ""}}> </p> } */}
           </div>
         </div>
-      )}
+      )} 
 
       {/* Contact Section */}
       <section id="contact" className="contact-section">
@@ -228,7 +260,6 @@ function App() {
           <div className="partner-logo"><img src="references/logo_elrow_town.jpg" alt="Elrow Town"/></div>
           <div className="partner-logo"><img src="references/logo_cirque_magique.jpg" alt="Cirque Magique"/></div>
           <div className="partner-logo"><img src="references/logo_12_inch_lovers.jpg" alt="12 Inch Lovers"/></div>
-          <div className="partner-logo"><img src="references/logo_many_more.jpg" alt="And Many More"/></div>
         </div>
       </section>
 
