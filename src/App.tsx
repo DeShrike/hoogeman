@@ -163,16 +163,16 @@ function App() {
               </div>
             </div>
             <div className="col-lg-1"></div>
-            <div className="col-lg-4">
+            <div className="col-lg-5">
               <div className="info-circles">
                 <div className="circle-wrapper">
-                  <img src="circle1.jpg?auto=compress&cs=tinysrgb&w=300" alt="Circle 1" className="info-circle" />
+                  <img src="Stelten_Jongleren_Clown_Hoogeman.jpg" alt="KWALITEITSVOL ENTERTAINMENT" className="info-circle" />
                 </div>
                 <div className="circle-wrapper">
-                  <img src="circle2.jpg?auto=compress&cs=tinysrgb&w=300" alt="Circle 2" className="info-circle" />
+                  <img src="Jester_Steltenloper_Detail_Kostuum.jpg" alt="EIGEN CREATIES EN KOSTUUMONTWERP" className="info-circle" />
                 </div>
                 <div className="circle-wrapper">
-                  <img src="circle3.jpg?auto=compress&cs=tinysrgb&w=300" alt="Circle 3" className="info-circle" />
+                  <img src="Uniek_evenement_Op_Maat.jpg" alt="UNIEKE BELEVING OP MAAT" className="info-circle" />
                 </div>
               </div>
             </div>
