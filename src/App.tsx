@@ -163,7 +163,7 @@ function App() {
               </div>
             </div>
             <div className="col-lg-1"></div>
-            <div className="col-lg-5">
+            <div className="col-lg-4 info-col-circles">
               <div className="info-circles">
                 <div className="circle-wrapper">
                   <img src="Stelten_Jongleren_Clown_Hoogeman.jpg" alt="KWALITEITSVOL ENTERTAINMENT" className="info-circle" />
