@@ -137,48 +137,65 @@ function App() {
         </div>
       </section>
 
-      {/* Info Section */}
-      <section id="info" className="info-section">
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-4">
-              <div className="info-content">
-                <h2 className="info-subtitle">KWALITEITSVOL ENTERTAINMENT</h2>
-                <h3 className="info-heading">Door 20 jaar ervaring</h3>
-                <p className="info-text">
-                  Met uitgebreide ervaring op diverse festivals, theater voorstellingen en events, biedt Hoogeman de deskundigheid die u nodig heeft om uw evenement onvergetelijk te maken.
-                </p>
 
-                <h2 className="info-subtitle">EIGEN CREATIES EN KOSTUUMONTWERP</h2>
-                <h3 className="info-heading">Van schets tot performance</h3>
-                <p className="info-text">
-                  Elk kostuum is een uniek ontwerp, handgemaakt en afgericht tot in elk klein detail. Originele karaktervol en perfect afgestemd op de visie van uw event.
-                </p>
 
-                <h2 className="info-subtitle">UNIEKE BELEVING OP MAAT</h2>
-                <h3 className="info-heading">Geen standaardformules</h3>
-                <p className="info-text">
-                  Aangepaste acts die volledig aansluiten bij uw thema. Van klassieke acts tot vernieuwend creatief: een totaalervaring die uw publiek meeneemt in een wereld vol verwondering.
-                </p>
-              </div>
-            </div>
-            <div className="col-lg-1"></div>
-            <div className="col-lg-4 info-col-circles">
-              <div className="info-circles">
-                <div className="circle-wrapper">
-                  <img src="Stelten_Jongleren_Clown_Hoogeman.jpg" alt="KWALITEITSVOL ENTERTAINMENT" className="info-circle" />
-                </div>
-                <div className="circle-wrapper">
-                  <img src="Jester_Steltenloper_Detail_Kostuum.jpg" alt="EIGEN CREATIES EN KOSTUUMONTWERP" className="info-circle" />
-                </div>
-                <div className="circle-wrapper">
-                  <img src="Uniek_evenement_Op_Maat.jpg" alt="UNIEKE BELEVING OP MAAT" className="info-circle" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+<section className="info-section2">
+  <div className="info-container2">
+    <div className="info-text">
+      <div className="info-item">
+        <h2>Kwaliteitsvol Entertainment</h2>
+        <h3>Door 20 jaar ervaring</h3>
+        <p>
+          Met uitgebreide ervaring op diverse festivals, bedrijfsfeesten en een
+          scala aan vaardigheden, biedt Hoogeman de deskundigheid die u nodig
+          heeft om uw evenement onvergetelijk te maken.
+        </p>
+      </div>
+
+      <div className="info-item">
+        <h2>Eigen Creaties en Kostuumontwerp</h2>
+        <h3>Van schets tot performance</h3>
+        <p>
+          Elk kostuum is een uniek ontwerp, handgemaakt met hoogwaardige
+          materialen en oog voor detail. Origineel, karaktervol en perfect
+          afgestemd op de act.
+        </p>
+      </div>
+
+      <div className="info-item">
+        <h2>Unieke Beleving op Maat</h2>
+        <h3>Geen standaardformules</h3>
+        <p>
+          Aangepaste acts die volledig aansluiten bij uw wensen. Van concept tot
+          uitvoering creëren we een totaalervaring die uw publiek meeneemt in
+          een wereld vol verwondering.
+        </p>
+      </div>
+    </div>
+
+    <div className="info-images">
+      <div className="circle"><img src="Stelten_Jongleren_Clown_Hoogeman.jpg" alt="Entertainment"/></div>
+      <div className="circle"><img src="Jester_Steltenloper_Detail_Kostuum.jpg" alt="Kostuumontwerp"/></div>
+      <div className="circle"><img src="Uniek_evenement_Op_Maat.jpg" alt="Beleving op maat"/></div>
+    </div>
+  </div>
+
+  <div className="info-bg"></div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
       {/* Acts Section */}
       <section id="acts" className="acts-section">
