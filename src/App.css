@@ -1,3 +1,6 @@
+/* ---------- Fonts ---------- */
+@import url("https://fonts.googleapis.com/css2?family=League+Gothic&family=Lora:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -798,6 +801,11 @@ body {
   .info-section {
     background-position: right;
   }
+
+    .acts-section {
+    background-position: bottom;
+  }
+
 }
 
 /* Responsive Design */
@@ -861,6 +869,7 @@ body {
   .acts-grid {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 2rem;
+    /* background-color: crimson; */
   }
 
   .act-circle {
@@ -933,8 +942,13 @@ body {
     height: 200px;
   }
 
+  .acts-section {
+    background-position: bottom;
+  }
+
   .acts-grid {
     grid-template-columns: repeat(2, 1fr);
+    /* background-color: blue; */
   }
 
   .contact-title {
@@ -1051,9 +1065,6 @@ html {
 
 
 
-/* ---------- Fonts ---------- */
-@import url("https://fonts.googleapis.com/css2?family=League+Gothic&family=Lora:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap");
-
 /* ---------- Basis sectie ---------- */
 .info-section2 {
   max-width: 1366px;
@@ -1093,12 +1104,26 @@ html {
   width: 51%;
   height: 100%;
 
+  /* background:
+    linear-gradient(90deg,
+      var(--white-bg) 0%,
+      rgba(255, 255, 255, 0.0) 80%,
+      rgba(255, 255, 255, 0.0) 100%),
+    url('../info_bg.jpg'); */
+
   background:
     linear-gradient(90deg,
       var(--white-bg) 0%,
       rgba(255, 255, 255, 0.0) 80%,
       rgba(255, 255, 255, 0.0) 100%),
-    url('../info_bg.jpg?auto=compress&cs=tinysrgb&w=1920');
+    url('../Piraat_steltenloper_act_animatie_straattheater.png');
+
+  /* background:
+    linear-gradient(90deg,
+      var(--white-bg) 0%,
+      rgba(255, 255, 255, 0.0) 80%,
+      rgba(255, 255, 255, 0.0) 100%),
+    url('../Piraat_steltenloper_act_straattheater_animatie.png'); */
 
   background-size: cover;
   background-position: center right;
@@ -1173,7 +1198,7 @@ html {
   width: clamp(120px, 14vw, 200px);
   height: clamp(120px, 14vw, 200px);
   border-radius: 50%;
-  border: 0.3vw solid #059f9f;
+  /* border: 0.3vw solid #059f9f; */
   overflow: hidden;
   flex-shrink: 0;
   transition: all 0.6s ease;

@@ -173,10 +173,10 @@ function App() {
       </div>
     </div>
 
-    <div className="info-images">
-      <div className="circle"><img src="Stelten_Jongleren_Clown_Hoogeman.jpg" alt="Entertainment"/></div>
-      <div className="circle"><img src="Jester_Steltenloper_Detail_Kostuum.jpg" alt="Kostuumontwerp"/></div>
-      <div className="circle"><img src="Uniek_evenement_Op_Maat.jpg" alt="Beleving op maat"/></div>
+    <div className="info-images no-circle-wrapper">
+      <div className="circle info-circle"><img src="Stelten_Jongleren_Clown_Hoogeman.jpg" alt="Entertainment"/></div>
+      <div className="circle info-circle"><img src="Jester_Steltenloper_Detail_Kostuum.jpg" alt="Kostuumontwerp"/></div>
+      <div className="circle info-circle"><img src="Uniek_evenement_Op_Maat.jpg" alt="Beleving op maat"/></div>
     </div>
   </div>
 
