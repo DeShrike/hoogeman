@@ -139,7 +139,7 @@ function App() {
 
 
 
-<section className="info-section2">
+<section id="info" className="info-section2">
   <div className="info-container2">
     <div className="info-text">
       <div className="info-item">
