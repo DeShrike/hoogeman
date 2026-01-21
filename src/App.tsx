@@ -79,16 +79,16 @@ function App() {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <a className="nav-link" href="#home" title="Home">Home</a>
+                <a className="nav-link top" href="#home" title="Home">Home</a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item middle">
                 <a className="nav-link" href="#info" title="Info">Info</a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item middle">
                 <a className="nav-link" href="#acts" title="Acts">Acts</a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#contact" title="Contact">Contact</a>
+              <li className="nav-item ">
+                <a className="nav-link bottom" href="#contact" title="Contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -301,7 +301,7 @@ function App() {
                 </svg>
               </a>
             </div>
-            <p className="footer-text">® 2025 | Hoogeman | All rights reserved.</p>
+            <p className="footer-text">® 2026 | Hoogeman | All rights reserved.</p>
           </div>
         </div>
       </footer>
