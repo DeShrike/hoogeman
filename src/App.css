@@ -721,14 +721,13 @@ body {
   border-bottom: 3px solid var(--light-blue);
 
   width: 100%;
-  max-width: 1366px;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .partners-container {
-  max-width: 1366px;
-  margin: 0 auto;
-  padding: 0 15px;
+  width: 100%;
+  margin: 0;
+  padding: 0 6vw;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -762,14 +761,13 @@ body {
   padding: 2rem 0;
 
   width: 100%;
-  max-width: 1366px;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .footer-container {
-  max-width: 1366px;
-  margin: 0 auto;
-  padding: 0 15px;
+  width: 100%;
+  margin: 0;
+  padding: 0 6vw;
 }
 
 .footer-content {
