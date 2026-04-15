@@ -637,6 +637,24 @@ body {
   min-height: 600px;
 }
 
+@media (min-width: 1200px) {
+  /* Make the overlay full-bleed on large screens and keep content to the right */
+  .contact-overlay {
+    position: relative;
+    left: 50%;
+    margin-left: -50vw;
+    width: 100vw;
+    padding-right: 6vw;
+    box-sizing: border-box;
+    justify-content: flex-end;
+  }
+
+  .contact-content {
+    text-align: right;
+    max-width: 600px;
+  }
+}
+
 .contact-content {
   max-width: 600px;
   padding: 2rem;
