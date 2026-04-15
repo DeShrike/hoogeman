@@ -42,8 +42,7 @@ body {
 
   width: 100%;
   height: 80px;
-  max-width: 1366px;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .navbar-collapse {
@@ -151,8 +150,7 @@ body {
   margin-top: 0;
 
   width: 100%;
-  max-width: 1366px;
-  margin: 0 auto;
+  margin: 0;
 }
 
 #heroCarousel {
@@ -201,13 +199,19 @@ body {
 
 .hero-content {
   position: absolute;
-  top: 50%;
   left: 50%;
-  transform: translate(-47%, -50%);
+  transform: translateX(-50%);
   z-index: 10;
   text-align: center;
   width: 90%;
   max-width: 1200px;
+  bottom: 120px; /* default spacing from bottom */
+}
+
+@media (min-width: 1360px) {
+  .hero-content {
+    bottom: 180px; /* per request: when width >=1360, bottom margin 180px */
+  }
 }
 
 .hero-title {
@@ -221,7 +225,7 @@ body {
   text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
   animation: fadeInUp 1s ease-out;
   text-align: left;
-  margin-top: 40%;
+  margin-top: 0;
 }
 
 @keyframes fadeInUp {
@@ -372,9 +376,7 @@ body {
   background-size: cover;
 
   width: 100%;
-  max-width: 1366px;
-  margin: 0 auto;
-
+  margin: 0;
 
   -moz-transform: scaleX(-1);
   -o-transform: scaleX(-1);
@@ -383,11 +385,7 @@ body {
   filter: FlipH;
   -ms-filter: "FlipH";
 
-
   background-blend-mode: multiply;
-  /* background-color: rgba(255, 255, 255, 0.1);  */
-  /* backdrop-filter: blur(10px); */
-  /* background: linear-gradient(135deg, var(--light-blue) 0%, #047a7a 100%); */
   position: relative;
   overflow: hidden;
 }
@@ -606,11 +604,9 @@ body {
   display: flex;
   align-items: center;
 
-
-  margin: 0 auto;
+  margin: 0;
 
   width: 100%;
-  max-width: 1366px;
 
   -moz-transform: scaleX(-1);
   -o-transform: scaleX(-1);
@@ -1099,28 +1095,28 @@ html {
   overflow: hidden;
 }
 
-/* Expand carousel to viewport width and center it */
+/* Expand carousel to fill hero container without using negative viewport offsets */
 #heroCarousel {
   position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-  width: 100vw;
-  max-width: 100vw;
+  width: 100%;
+  margin: 0;
+  left: auto;
+  right: auto;
+  max-width: none;
 }
 
 /* Ensure carousel internals fill the hero area */
 .carousel-inner,
 .carousel-item {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
 }
 
 .carousel-item img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  display: block;
 }
 
 /* Loading Animation */
@@ -1145,11 +1141,10 @@ html {
 
 /* ---------- Basis sectie ---------- */
 .info-section2 {
-  max-width: 1366px;
-  margin: 0 auto;
+  width: 100%;
+  margin: 0;
 
   position: relative;
-  width: 100%;
   background-color: #fefefe;
   overflow: hidden;
   display: flex;
@@ -1163,10 +1158,9 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: stretch; /* maakt beide kolommen even hoog */
-  max-width: 1366px;
-  /* margin: 0 auto; */
+  width: 100%;
   padding: 6vw 4vw;
-  padding-left: 150px; /* ✅ startpositie 150px van linkerrand */
+  padding-left: 6vw; /* reduced fixed left padding to maintain alignment */
   gap: 60px;
   box-sizing: border-box;
   flex-wrap: wrap;
