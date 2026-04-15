@@ -1090,6 +1090,39 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Full-bleed hero carousel: keep carousel centered and spanning viewport even inside containers */
+.hero-section {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Expand carousel to viewport width and center it */
+#heroCarousel {
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  width: 100vw;
+  max-width: 100vw;
+}
+
+/* Ensure carousel internals fill the hero area */
+.carousel-inner,
+.carousel-item {
+  width: 100vw;
+  height: 100vh;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 /* Loading Animation */
 @keyframes pulse {
 
