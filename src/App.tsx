@@ -26,23 +26,23 @@ function App() {
 
   const acts = [
     { id: 'lord-bubbleton', name: 'Lord Bubbleton', url: 'acts/Festival_Lord_Bubbleton_Zeepbelen_Steltenloper.jpg',
-      description: 'Een charmante bellenblazer die uw gasten betovert met magische zeepbellen en interactieve performances.' },
+      description: 'De meester van de verwondering. Lord Bubbleton creëert een magische wereld met zeepbellen in alle formaten: van klein en verfijnd tot spectaculair reusachtig. Voor extra spektakel vult hij zijn act aan met indrukwekkende vuureffecten. Tijdens winterevents wordt hij een lichtbaken dankzij geïntegreerde verlichting. Lord Bubbleton is een sterke solo-act, maar schittert extra in duo met Lady Bubbleton. Vaak wordt hij vergezeld door zijn helper Bobby Bell, die ter plaatse workshops reuzenbellen maken verzorgt.' },
     { id: 'hdmi', name: 'HDMI', url: 'acts/Steltenloper_Hdmi_Fiets_Disco_Party.jpg',
-      description: 'Een energieke muzikale act die uw event omtovert tot een spetterende show vol ritme en entertainment.' },
+      description: 'Een unieke verschijning die u nergens anders zult zien! Karakter \'Didi Sco\' fietst op een volledig op maat gemaakte disco-fiets... op stelten! Deze mobiele interventie is een rijdend spektakelstuk, uitgerust met een 200W sound system, discobal, rookmachines, LED-verlichting en confettikanonnen. De act is volledig te personaliseren naar uw wens en kan worden uitgebreid met twee extra dansers. Dé perfecte eyecatcher voor festivals, wielerwedstrijden en straattheater.' },
     { id: 'kapitein-langpoot', name: 'Kapitein Langpoot', url: 'acts/Steltenloper_Piraat_Animatie_Hoogeman.jpg',
-      description: 'Een imposante steltenact die indruk maakt met zijn lengte en charisma, perfect voor festivals en events.' },
+      description: 'Deze piraat op zeer hoge poten brengt vermaak en pure verwondering. Met zijn gigantische laarzen is hij een imposante verschijning die boven elk publiek uitsteekt. Indien de ondergrond het toelaat, gooit hij nog een extra troef in de strijd: een spectaculaire jongleer-act met vlijmscherpe messen. Een avontuurlijk karakter dat interactie en spanning perfect weet te combineren.' },
     { id: 'lady-bubbleton', name: 'Lady Bubbleton', url: 'acts/Lady_Bubbleton_Stelten_Act_Festival.jpg',
-      description: 'De elegante tegenhanger van Lord Bubbleton, die verfijnde bellenshows verzorgt voor een exclusief publiek.' },
+      description: 'De majesteitelijke partner van Lord Bubbleton. Met haar imposante grote rok is zij een verschijning die direct de aandacht grijpt. Lady Bubbleton is niet alleen een plaatje om naar te kijken; ze deelt bellen, snoepjes of zelfs gepersonaliseerde boodschappen uit aan uw gasten. In de wintermaanden is zij prachtig verlicht, wat haar een sprookjesachtige gloed geeft. Ze vormt de perfecte koppel-act met Lord Bubbleton voor een compleet plaatje.' },
     { id: 'the-jester', name: 'The Jester', url: 'acts/Jester_Stelten_Animatie_Stadsfeest_Straattheater.jpg', 
-      description: 'Een speelse entertainer die jongleren, acrobatiek en humor combineert tot een onvergetelijke show.' },
+      description: 'De klassieke nar in een magisch jasje. Gewapend met zijn magische scepter brengt hij humor en mysterie naar uw evenement. Tijdens avond- of donkere events \'tovert\' hij letterlijk met licht, waardoor hij een magisch effect creëert. Ook voor winterevents is The Jester een geliefde gast dankzij zijn spectaculaire lichteffecten die de donkere dagen direct opvrolijken.' },
     { id: 'dr-steam', name: 'Dr. Steam', url: 'acts/Vuurshow_Steampunk_Act_Zeepbellen.jpg',
-      description: 'Een steampunk karakter dat wetenschap en theater samenbrengt in een unieke performance.' },
+      description: 'Een visueel hoogstandje in de wereld van Steampunk. Dr. Steam combineert een krachtige, mechanische uitstraling met de rauwe elementen van vuur en licht. Deze act is technisch zeer sterk en visueel indrukwekkend, waardoor hij perfect past bij evenementen waar een stoere, artistieke sfeer gewenst is. De combinatie van licht- en vuureffecten maakt hem tot een onvergetelijke verschijning.' },
     { id: 'bobby-bell', name: 'Bobby Bell', url: 'acts/Bobby_Bell_Zeepbellen_Workshop_Kinderanimatie.jpg',
-      description: 'Een klassieke straatartiest die met zijn muziek en persoonlijkheid iedereen weet te vermaken.' },
+      description: 'De trouwe rechterhand van Lord Bubbleton. Bobby Bell werkt vanaf de grond (geen stelten), waardoor hij de ideale link vormt tussen het publiek en de hoge karakters. Hij is een meester in het verzorgen van interactieve workshops reuzezeepbellen maken, geheel in de unieke Bubbleton-stijl. Net als de rest van de familie is Bobby Bell uitgerust met vuureffecten en sfeervolle verlichting voor winterse gelegenheden.' },
     { id: 'jack-pumpkin', name: 'Jack Pumpkin', url: 'acts/Steltenloper_Halloween_Pompoen_Act_Straattheater.jpg',
-      description: 'Een mysterieus Halloween-karakter perfect voor spooky events en themafeesten.' },
+      description: 'Wanneer deze gigantische vogelverschrikker tot leven komt, weet u niet wat u ziet! Jack Pumpkin is de ultieme eyecatcher voor elk herfst- of griezelevenement. Met zijn indrukwekkende hoogte, mysterieuze rookeffecten en ingebouwde verlichting zorgt hij voor een unieke visuele impact waar nog lang over nagepraat zal worden.' },
     { id: 'more', name: 'En meer...', url: 'acts/Hosting_Act_Straattheater_Animatie.jpg',
-      description: 'Ontdek nog veel meer unieke acts en performers die perfect passen bij uw event. Neem contact op voor het volledige overzicht.' }
+      description: 'Maatwerk en Expertise Bij Hoogeman stopt het niet bij deze karakters. Onze expertise strekt zich uit tot een volledig arsenaal aan nog meer acts en Karakters. Aangevuld met jonglerie, acrobatie, vuurshows enz. Heeft u een specifiek thema of een unieke wens? Wij denken graag met u mee vanaf de eerste schets tot de uiteindelijke performance. Onze passie ligt in het creëren van entertainment op maat om van uw evenement een ongekend succes te maken.' }
   ];
 
   const handleNextSlide = () => {
