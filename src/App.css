@@ -208,6 +208,24 @@ body {
   bottom: 120px; /* default spacing from bottom */
 }
 
+/* Align hero title and info items with navbar logo on larger screens */
+@media (min-width: 992px) {
+  /* Position hero content's left edge to match the navbar logo's left offset (100px)
+     and switch off centering transform so the title is left-aligned with the logo. */
+  .hero-content {
+    left: 200px;
+    transform: none;
+    text-align: left;
+    width: auto;
+    max-width: calc(1200px - 100px);
+  }
+
+  /* Ensure info section's left column aligns with the same 100px offset */
+  .info-container2 {
+    padding-left: 100px; /* aligns info-item elements with the logo */
+  }
+}
+
 @media (min-width: 1360px) {
   .hero-content {
     bottom: 180px; /* per request: when width >=1360, bottom margin 180px */
@@ -251,80 +269,6 @@ body {
 .carousel-control-next:hover {
   opacity: 1;
 }
-
-/* 
-
-.info-section {
-  padding: 8rem 0;
-  max-width: 1366px;
-  margin: 0 auto;
-  padding: 2rem 0;
-  background:
-    linear-gradient(90deg,
-      var(--white-bg) 0%,
-      var(--white-bg) 60%,
-      rgba(255, 255, 255, 0.0) 80%,
-      rgba(255, 255, 255, 0.0) 100%),
-    url('../info_bg.jpg?auto=compress&cs=tinysrgb&w=1920');
-
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.info-content {
-  margin-left: 100px;
-}
-
-.info-row {
-  display: flex;
-}
-
-.info-subtitle {
-  font-family: 'League Gothic', sans-serif;
-  font-size: 2rem;
-  letter-spacing: 0.05em;
-  line-height: 1;
-  color: var(--light-blue);
-  margin-bottom: 0.5rem;
-  margin-top: 2rem;
-  text-transform: uppercase;
-}
-
-.info-subtitle:first-child {
-  margin-top: 0;
-}
-
-.info-heading {
-  font-family: 'Lora', serif;
-  font-weight: 700;
-  font-size: 1.5rem;
-  letter-spacing: 0;
-  line-height: 1.4;
-  color: var(--gray-text);
-  margin-bottom: 1rem;
-}
-
-.info-text {
-  font-family: 'Lora', serif;
-  font-size: 1.1rem;
-  letter-spacing: 0;
-  line-height: 1.4;
-  color: var(--gray-text);
-  margin-bottom: 2rem;
-}
- .info-col-circles
- {
-  flex-grow: 1;
- }
-
- .info-circles {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2rem;
-  padding: 2rem;
-} */
 
 .circle-wrapper {
   position: relative;
@@ -1275,6 +1219,7 @@ html {
 .info-images {
   flex: 1;
   display: flex;
+  gap: 10px;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
@@ -1301,7 +1246,7 @@ html {
 /* ---------- Responsiveness ---------- */
 @media (max-width: 1200px) {
   .info-container2 {
-    padding-left: 100px;
+    margin-left: 100px;
     gap: 40px;
   }
   .info-text {
