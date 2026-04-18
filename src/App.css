@@ -505,7 +505,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1000;
+  z-index: 2000; /* Ensure modal appears above the fixed navbar (Bootstrap fixed-top z-index is typically 1030) */
   animation: fadeIn 0.3s ease;
 }
 
