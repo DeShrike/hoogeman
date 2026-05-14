@@ -652,7 +652,7 @@ body {
 }
 
 .act-modal {
-  background: var(--black-bg);
+  background: var(--white-bg);
   border: 2px solid var(--light-blue);
   border-radius: 10px;
   max-width: 600px;
