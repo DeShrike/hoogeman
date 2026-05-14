@@ -375,7 +375,7 @@ function App() {
               </a>
             </div>
             <div className="footer-text">
-              <p>&copy; 2025 | Hoogeman | All rights reserved.</p>
+              <p>&copy; 2026 | Hoogeman | All rights reserved.</p>
             </div>
           </div>
         </div>
