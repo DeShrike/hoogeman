@@ -8,7 +8,8 @@
   --black-bg: #000000;
   --white-bg: #fefefe;
   --light-blue: #059f9f;
-  --gray-text: #737373;
+  --gray-text: #535353;
+  --white-text: #aaaaaa;
   --max-width: 1366px;
 
   /* Breakpoints */
@@ -398,6 +399,7 @@ body {
 }
 
 .info-items {
+  font-family: 'Roboto Condensed', sans-serif;
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -409,7 +411,7 @@ body {
 }
 
 .info-item h2 {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'League Gothic', sans-serif;
   font-size: 1.2rem;
   text-transform: uppercase;
   color: var(--light-blue);
@@ -419,7 +421,7 @@ body {
 }
 
 .info-item h3 {
-  font-family: 'Lora', serif;
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: 1rem;
   color: var(--gray-text);
   font-weight: 400;
@@ -735,6 +737,7 @@ body {
 }
 
 .act-modal-content p {
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: 0.95rem;
   line-height: 1.8;
   color: var(--gray-text);
@@ -833,7 +836,7 @@ body {
   z-index: 1;
   max-width: 900px;
   margin-left: auto;
-  padding-right: 80px;
+  padding-right: 20px;
   animation: fadeInUp 0.8s ease-out;
 }
 
@@ -850,9 +853,10 @@ body {
 }
 
 .contact-text {
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: 1rem;
   line-height: 1.8;
-  color: var(--gray-text);
+  color: var(--white-text);
   margin-bottom: 30px;
   text-align: right;
 }
@@ -869,14 +873,16 @@ body {
 }
 
 .contact-description {
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: 0.95rem;
-  color: var(--gray-text);
+  color: var(--white-text);
   margin-bottom: 35px;
   font-style: italic;
   text-align: right;
 }
 
 .contact-info {
+  font-family: 'Roboto Condensed', sans-serif;
   display: flex;
   flex-direction: column;
   gap: 12px;
