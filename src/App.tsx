@@ -97,7 +97,7 @@ function App() {
       id: 'more',
       name: 'En meer...',
       url: 'acts/Hosting_Act_Straattheater_Animatie.jpg',
-      description: 'Maatwerk en Expertise Bij Hoogeman stopt het niet bij deze karakters. Onze expertise strekt zich uit tot een volledig arsenaal aan nog meer acts en Karakters. Aangevuld met jonglerie, acrobatie, vuurshows enz. Heeft u een specifiek thema of een unieke wens? Wij denken graag met u mee vanaf de eerste schets tot de uiteindelijke performance. Onze passie ligt in het creëren van entertainment op maat om van uw evenement een ongekend succes te maken.'
+      description: 'Bij Hoogeman stopt het niet bij deze karakters. Onze expertise strekt zich uit tot een volledig arsenaal aan nog meer acts en Karakters. Aangevuld met jonglerie, acrobatie, vuurshows enz. Heeft u een specifiek thema of een unieke wens? Wij denken graag met u mee vanaf de eerste schets tot de uiteindelijke performance. Onze passie ligt in het creëren van entertainment op maat om van uw evenement een ongekend succes te maken.'
     }
   ];
 
