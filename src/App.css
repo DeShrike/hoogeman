@@ -10,6 +10,7 @@
   --white-bg: #fefefe;
   --light-blue: #059f9f;
   --gray-text: #737373;
+  --white-text: #ffffff;
   --gray-text-dark: #737370;
   --max-width: 1366px;
   --side-padding: 40px;
@@ -304,6 +305,9 @@ body {
   min-height: 768px;
   display: flex;
   align-items: center;
+  background-image: url('info_bg.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 .info-wrapper {
@@ -440,6 +444,9 @@ body {
   display: flex;
   align-items: center;
   overflow: hidden;
+  background-image: url('acts_bg.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 .acts-grid {
@@ -574,7 +581,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.95);
+  background: rgba(0, 0, 0, 0.5);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -583,7 +590,7 @@ body {
 }
 
 .act-modal {
-  background: var(--black-bg);
+  background: var(--white-bg);
   border: 2px solid var(--light-blue);
   border-radius: 10px;
   max-width: 600px;
@@ -655,7 +662,7 @@ body {
   width: 100%;
   background: linear-gradient(135deg, rgba(5, 159, 159, 0.15) 0%, rgba(5, 159, 159, 0.05) 100%);
   padding: 60px 0;
-  height: 606px;
+  /* height: 606px; */
   display: flex;
   align-items: center;
   overflow: hidden;
@@ -793,7 +800,7 @@ body {
    ======================================== */
 
 .partners-section {
-  background-color: var(--black-bg);
+  background-color: var(--white-bg);
   padding: 40px 0;
   border-top: 1px solid rgba(5, 159, 159, 0.2);
 }
@@ -801,7 +808,7 @@ body {
 .partners-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
-  gap: 30px;
+  gap: 20px;
   align-items: center;
   max-width: var(--max-width);
   margin: 0 auto;
@@ -854,7 +861,8 @@ body {
    ======================================== */
 
 .footer {
-  background: linear-gradient(135deg, #0a0a0a 0%, #000000 100%);
+  /* background: linear-gradient(135deg, #0a0a0a 0%, #000000 100%); */
+  background: linear-gradient(180deg, rgba(5, 159, 159, 0.95) 0%, rgba(5, 159, 159, 0.75) 100%) !important;
   padding: 0;
   height: 80px;
   border-top: 1px solid rgba(5, 159, 159, 0.3);
@@ -886,14 +894,14 @@ body {
   height: 40px;
   border-radius: 50%;
   background: rgba(5, 159, 159, 0.2);
-  color: var(--light-blue);
-  border: 1px solid var(--light-blue);
+  color: var(--white-text);
+  border: 1px solid var(--white-text);
   transition: all 0.3s ease;
 }
 
 .social-link:hover {
   background: var(--light-blue);
-  color: var(--black-bg);
+  color: var(--white-text);
   transform: translateY(-3px);
 }
 
