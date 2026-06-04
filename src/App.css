@@ -314,9 +314,9 @@ body {
 
 .info-content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 80px;
-  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap:20px;
+  align-items: left;
   max-width: var(--max-width);
   margin: 0 auto;
   padding: 0 var(--side-padding);
@@ -331,7 +331,7 @@ body {
 
 .info-item h2 {
   font-family: 'League Gothic', sans-serif;
-  font-size: 28px;
+  font-size: 34px;
   text-transform: uppercase;
   color: var(--light-blue);
   letter-spacing: 1px;
@@ -341,7 +341,7 @@ body {
 
 .info-item h3 {
   font-family: 'Lora', serif;
-  font-size: 14px;
+  font-size: 18px;
   color: var(--gray-text-dark);
   font-weight: 700;
   margin-bottom: 1rem;
@@ -349,7 +349,7 @@ body {
 
 .info-item p {
   font-family: 'Lora', serif;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.8;
   color: var(--gray-text);
 }
@@ -521,6 +521,12 @@ body {
   color: var(--black-bg);
 }
 
+@media (max-width: 1280px) {
+  .acts-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+  }
+}
 @media (max-width: 1023px) {
   .acts-grid {
     grid-template-columns: repeat(3, 1fr);
@@ -573,7 +579,7 @@ body {
   background: var(--white-bg);
   border: 2px solid var(--light-blue);
   border-radius: 10px;
-  max-width: 600px;
+  max-width: 800px;
   width: 100%;
   max-height: 90vh;
   overflow-y: auto;
@@ -592,15 +598,16 @@ body {
 
 .act-modal-content {
   display: flex;
-  flex-direction: column;
+/*  flex-direction: column;*/
   gap: 20px;
 }
 
 .act-modal-content img {
   width: 100%;
+  max-width: 400px;
   border-radius: 8px;
   border: 2px solid var(--light-blue);
-  max-height: 400px;
+  /*max-height: 400px;*/
   object-fit: cover;
 }
 
@@ -631,6 +638,19 @@ body {
 .act-modal-close:hover {
   background: var(--black-bg);
   color: var(--white-bg);
+}
+
+@media (max-width: 767px) {
+  .act-modal {
+    max-width: 400px;
+  }
+  .act-modal-content {
+    flex-direction: column;
+  }
+  .act-modal-content img {
+    width: 100%;
+    max-width: 300px;
+  }
 }
 
 /* ========================================
@@ -763,7 +783,7 @@ body {
 .partners-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
-  gap: 20px;
+  gap: 2px;
   align-items: center;
   max-width: var(--max-width);
   margin: 0 auto;
