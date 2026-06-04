@@ -88,7 +88,7 @@ function App() {
       name: 'Alto Calavera',
       url: 'acts/Steltenloper_Dia_de_los_Muertos_Halloween_skull_flowers.jpg',
       urlHires: 'acts/Steltenloper_Dia_de_los_Muertos_Halloween_skull_flowers_SQ.jpg',
-      description: 'Hoog boven de menigte rijst hij op, een monumentale verschijning, recht uit het dodenrijk. Alto Calavera is een wandelend altaar: een kleurrijk beschilderd doodshoofd, een sombrero zo breed als de horizon en een mantel bezaaid met bloemen. Met zijn prachtig versierde mariachi-outfit belichaamt hij de geest van <i>Día de los Meurtos</i>: niet als iets angstigs, maar als een vierend, groots en onvergetelijk spektakel. Deze elegante calavera dwaalt boven het publiek, nodigt uit, verast en laat niemand onbewogen. Bij Alto Calavera is <i>La Muerte</i> niet het einde maar het begin van het feest.'
+      description: 'Hoog boven de menigte rijst hij op, een monumentale verschijning, recht uit het dodenrijk. Alto Calavera is een wandelend altaar: een kleurrijk beschilderd doodshoofd, een sombrero zo breed als de horizon en een mantel bezaaid met bloemen. Met zijn prachtig versierde mariachi-outfit belichaamt hij de geest van <i>Día de los Meurtos</i>: niet als iets angstigs, maar als een vierend, groots en onvergetelijk spektakel. Deze elegante calavera dwaalt boven het publiek, nodigt uit, verrast en laat niemand onbewogen. Bij Alto Calavera is <i>La Muerte</i> niet het einde maar het begin van het feest.'
     },
     {
       id: 'act-10',
