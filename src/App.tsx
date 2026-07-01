@@ -14,15 +14,15 @@ function App() {
   ];
 
   const heroImagesMd = [
-    '/carousel/Stiltwalker_Hoogeman_Lord_Bubbleton_md.jpg?auto=compress&cs=tinysrgb&w=1920',
-    '/carousel/Artist_Hoogeman_Fire_Eating_md.jpg?auto=compress&cs=tinysrgb&w=1920',
-    '/carousel/Stiltwalker_Hoogeman_Lady_Bubbleton_md.jpg?auto=compress&cs=tinysrgb&w=1920'
+    '/carousel/Stiltwalker_Hoogeman_Lord_Bubbleton_CM.jpg?auto=compress&cs=tinysrgb&w=1920',
+    '/carousel/Artist_Hoogeman_Fire_Eating_CM.jpg?auto=compress&cs=tinysrgb&w=1920',
+    '/carousel/Stiltwalker_Hoogeman_Lady_Bubbleton_CM.jpg?auto=compress&cs=tinysrgb&w=1920'
   ];
 
   const heroImagesSm = [
-    '/carousel/Stiltwalker_Hoogeman_Lord_Bubbleton_sm.jpg?auto=compress&cs=tinysrgb&w=1920',
-    '/carousel/Artist_Hoogeman_Fire_Eating_sm.jpg?auto=compress&cs=tinysrgb&w=1920',
-    '/carousel/Stiltwalker_Hoogeman_Lady_Bubbleton_sm.jpg?auto=compress&cs=tinysrgb&w=1920'
+    '/carousel/Stiltwalker_Hoogeman_Lord_Bubbleton_CS.jpg?auto=compress&cs=tinysrgb&w=1920',
+    '/carousel/Artist_Hoogeman_Fire_Eating_CS.jpg?auto=compress&cs=tinysrgb&w=1920',
+    '/carousel/Stiltwalker_Hoogeman_Lady_Bubbleton_CS.jpg?auto=compress&cs=tinysrgb&w=1920'
   ];
 
   // ===== ACTS DATA (12 ACTS) =====
@@ -144,7 +144,7 @@ function App() {
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapsex navbar-collapse" id="navbarNav">
+          <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
                 <a className="nav-link" href="#home" title="Home">Home</a>

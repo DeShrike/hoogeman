@@ -198,7 +198,12 @@ body {
   z-index: 10;
   opacity: 0.7;
 }
-
+.carousel-control-prev {
+  transform: translateX(-33%) translateY(-50%);
+}
+.carousel-control-next {
+  transform: translateX(33%) translateY(-50%);
+}
 .carousel-control:hover {
   opacity: 1;
 }
@@ -223,10 +228,10 @@ body {
   padding: 0 20px;
 }
 
-.hero-text-wrapper {
+.hero-text-wrapper, .navbar {
   max-width: var(--max-width);
   margin: 0 auto;
-  width: 100%;
+  width: 95%;
   padding-left: var(--side-padding);
 }
 
@@ -537,7 +542,6 @@ body {
 @media (max-width: 1023px) {
   .acts-section {
     background-image: url('/background/Steltenloper_gentleman_jongleren_kegels_M.jpg');
-    background-position: right;
   }
   .acts-grid {
     grid-template-columns: repeat(3, 1fr);
@@ -556,7 +560,6 @@ body {
 @media (max-width: 767px) {
   .acts-section {
     background-image: url('/background/Steltenloper_gentleman_jongleren_kegels_S.jpg');
-    background-position: right;
   }
   .acts-grid {
     grid-template-columns: repeat(2, 1fr);
