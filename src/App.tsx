@@ -8,21 +8,21 @@ function App() {
 
   // ===== CAROUSEL IMAGES =====
   const heroImages = [
-    '/carousel/Stiltwalker_Hoogeman_Lord_Bubbleton_CB.jpg?auto=compress&cs=tinysrgb&w=1920',
-    '/carousel/Artist_Hoogeman_Fire_Eating_CB.jpg?auto=compress&cs=tinysrgb&w=1920',
-    '/carousel/Stiltwalker_Hoogeman_Lady_Bubbleton_CB.jpg?auto=compress&cs=tinysrgb&w=1920'
+    'carousel/Stiltwalker_Hoogeman_Lord_Bubbleton_CB.jpg?auto=compress&cs=tinysrgb&w=1920',
+    'carousel/Artist_Hoogeman_Fire_Eating_CB.jpg?auto=compress&cs=tinysrgb&w=1920',
+    'carousel/Stiltwalker_Hoogeman_Lady_Bubbleton_CB.jpg?auto=compress&cs=tinysrgb&w=1920'
   ];
 
   const heroImagesMd = [
-    '/carousel/Stiltwalker_Hoogeman_Lord_Bubbleton_CM.jpg?auto=compress&cs=tinysrgb&w=1920',
-    '/carousel/Artist_Hoogeman_Fire_Eating_CM.jpg?auto=compress&cs=tinysrgb&w=1920',
-    '/carousel/Stiltwalker_Hoogeman_Lady_Bubbleton_CM.jpg?auto=compress&cs=tinysrgb&w=1920'
+    'carousel/Stiltwalker_Hoogeman_Lord_Bubbleton_CM.jpg?auto=compress&cs=tinysrgb&w=1920',
+    'carousel/Artist_Hoogeman_Fire_Eating_CM.jpg?auto=compress&cs=tinysrgb&w=1920',
+    'carousel/Stiltwalker_Hoogeman_Lady_Bubbleton_CM.jpg?auto=compress&cs=tinysrgb&w=1920'
   ];
 
   const heroImagesSm = [
-    '/carousel/Stiltwalker_Hoogeman_Lord_Bubbleton_CS.jpg?auto=compress&cs=tinysrgb&w=1920',
-    '/carousel/Artist_Hoogeman_Fire_Eating_CS.jpg?auto=compress&cs=tinysrgb&w=1920',
-    '/carousel/Stiltwalker_Hoogeman_Lady_Bubbleton_CS.jpg?auto=compress&cs=tinysrgb&w=1920'
+    'carousel/Stiltwalker_Hoogeman_Lord_Bubbleton_CS.jpg?auto=compress&cs=tinysrgb&w=1920',
+    'carousel/Artist_Hoogeman_Fire_Eating_CS.jpg?auto=compress&cs=tinysrgb&w=1920',
+    'carousel/Stiltwalker_Hoogeman_Lady_Bubbleton_CS.jpg?auto=compress&cs=tinysrgb&w=1920'
   ];
 
   // ===== ACTS DATA (12 ACTS) =====
