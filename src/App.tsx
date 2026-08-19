@@ -8,21 +8,21 @@ function App() {
 
   // ===== CAROUSEL IMAGES =====
   const heroImages = [
-    'carousel/Stiltwalker_Hoogeman_Lord_Bubbleton.jpg?auto=compress&cs=tinysrgb&w=1920',
-    'carousel/Artist_Hoogeman_Fire_Eating.jpg?auto=compress&cs=tinysrgb&w=1920',
-    'carousel/Stiltwalker_Hoogeman_Lady_Bubbleton.jpg?auto=compress&cs=tinysrgb&w=1920'
+    '/carousel/Stiltwalker_Hoogeman_Lord_Bubbleton_CB.jpg?auto=compress&cs=tinysrgb&w=1920',
+    '/carousel/Artist_Hoogeman_Fire_Eating_CB.jpg?auto=compress&cs=tinysrgb&w=1920',
+    '/carousel/Stiltwalker_Hoogeman_Lady_Bubbleton_CB.jpg?auto=compress&cs=tinysrgb&w=1920'
   ];
 
   const heroImagesMd = [
-    'carousel/Stiltwalker_Hoogeman_Lord_Bubbleton_md.jpg?auto=compress&cs=tinysrgb&w=1920',
-    'carousel/Artist_Hoogeman_Fire_Eating_md.jpg?auto=compress&cs=tinysrgb&w=1920',
-    'carousel/Stiltwalker_Hoogeman_Lady_Bubbleton_md.jpg?auto=compress&cs=tinysrgb&w=1920'
+    '/carousel/Stiltwalker_Hoogeman_Lord_Bubbleton_CM.jpg?auto=compress&cs=tinysrgb&w=1920',
+    '/carousel/Artist_Hoogeman_Fire_Eating_CM.jpg?auto=compress&cs=tinysrgb&w=1920',
+    '/carousel/Stiltwalker_Hoogeman_Lady_Bubbleton_CM.jpg?auto=compress&cs=tinysrgb&w=1920'
   ];
 
   const heroImagesSm = [
-    'carousel/Stiltwalker_Hoogeman_Lord_Bubbleton_sm.jpg?auto=compress&cs=tinysrgb&w=1920',
-    'carousel/Artist_Hoogeman_Fire_Eating_sm.jpg?auto=compress&cs=tinysrgb&w=1920',
-    'carousel/Stiltwalker_Hoogeman_Lady_Bubbleton_sm.jpg?auto=compress&cs=tinysrgb&w=1920'
+    '/carousel/Stiltwalker_Hoogeman_Lord_Bubbleton_CS.jpg?auto=compress&cs=tinysrgb&w=1920',
+    '/carousel/Artist_Hoogeman_Fire_Eating_CS.jpg?auto=compress&cs=tinysrgb&w=1920',
+    '/carousel/Stiltwalker_Hoogeman_Lady_Bubbleton_CS.jpg?auto=compress&cs=tinysrgb&w=1920'
   ];
 
   // ===== ACTS DATA (12 ACTS) =====
@@ -136,7 +136,7 @@ function App() {
   return (
     <div className="app">
       {/* ===== NAVIGATION ===== */}
-      <nav className="navbar navbar-expand-lg navbar-dark fixed-top">
+      {/* <nav className="navbar navbar-expand-lg navbar-dark fixed-top d-none">
         <div className="container nav-container">
           <a className="navbar-brand" href="#home">
             <img src="./logo.png" alt="Hoogeman" className="logo" />
@@ -144,7 +144,7 @@ function App() {
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapsex navbar-collapse" id="navbarNav">
+          <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
                 <a className="nav-link" href="#home" title="Home">Home</a>
@@ -160,6 +160,22 @@ function App() {
               </li>
             </ul>
           </div>
+        </div>
+      </nav> */}
+
+      <nav className="d-flex mynavbar fixed-top contzainer">
+        <div className='nav-wrapper container'>
+          <div className='nav-content'>
+          <div>
+            <a className="navbar-brand" href="#home">
+              <img src="./logo.png" alt="Hoogeman" className="logo" />
+            </a>
+          </div>
+          <div className="nav-item"><a href="#home">Home</a></div>
+          <div className="nav-item"><a href="#info">Info</a></div>
+          <div className="nav-item"><a href="#acts">Acts</a></div>
+          <div className="nav-item"><a href="#contact">Contact</a></div>
+        </div>
         </div>
       </nav>
 

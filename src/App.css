@@ -49,6 +49,45 @@ body {
    NAVBAR - 80px
    ======================================== */
 
+.mynavbar
+{
+  background: linear-gradient(180deg, rgba(5, 159, 159, 0.95) 0%, rgba(5, 159, 159, 0.75) 100%) !important;
+  backdrop-filter: blur(10px);
+  width: 100% !important;
+}
+.mynavbar .nav-content {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--side-padding);
+  display: flex;
+  align-items: center !important;
+  height: 80px;
+}
+.mynavbar .nav-wrapper {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+}
+.mynavbar .nav-item
+{
+  display: flex;
+  font-family: 'Roboto Condensed', sans-serif !important;
+  color: var(--white-bg) !important;
+  font-size: 1.1rem !important;
+  padding: 0 1.5rem !important;
+  height: 40px !important;
+  align-items: center !important;
+}
+
+.mynavbar
+{
+  .logo {
+    height: 55px !important;
+    width: auto !important;
+    object-fit: contain !important;
+  }
+}
+
 .navbar {
   background: linear-gradient(180deg, rgba(5, 159, 159, 0.95) 0%, rgba(5, 159, 159, 0.75) 100%) !important;
   backdrop-filter: blur(10px);
@@ -84,12 +123,11 @@ body {
   display: flex !important;
   gap: 0 !important;
   list-style: none !important;
+  height: 80px !important;
+  align-items: center !important;
 }
 
 .navbar-nav .nav-item {
-  display: flex !important;
-  align-items: center !important;
-  height: 80px !important;
 }
 
 .navbar-nav .nav-link {
@@ -198,7 +236,12 @@ body {
   z-index: 10;
   opacity: 0.7;
 }
-
+.carousel-control-prev {
+  transform: translateX(-33%) translateY(-50%);
+}
+.carousel-control-next {
+  transform: translateX(33%) translateY(-50%);
+}
 .carousel-control:hover {
   opacity: 1;
 }
@@ -223,10 +266,10 @@ body {
   padding: 0 20px;
 }
 
-.hero-text-wrapper {
+.hero-text-wrapper, .navbar {
   max-width: var(--max-width);
   margin: 0 auto;
-  width: 100%;
+  width: 95%;
   padding-left: var(--side-padding);
 }
 
@@ -282,7 +325,7 @@ body {
 
 .info-section {
   background: linear-gradient(135deg, #1a1a1a 0%, #0a0a0a 100%);
-  background-image: url('/info_bg.jpg');
+  background-image: url('/background/Hoogeman_steltenloper_piraat_act_B.jpg');
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply;
@@ -379,6 +422,10 @@ body {
 }
 
 @media (max-width: 1023px) {
+  .info-section {
+    background-image: url('/background/Hoogeman_steltenloper_piraat_act_M.jpg');
+    background-position: right;
+  }
   .info-content {
     grid-template-columns: 1fr;
     gap: 50px;
@@ -395,6 +442,10 @@ body {
 }
 
 @media (max-width: 767px) {
+  .info-section {
+    background-image: url('/background/Hoogeman_steltenloper_piraat_act_B.jpg');
+    background-position: right;
+  }
   .info-item h2 {
     font-size: 1rem;
   }
@@ -412,8 +463,7 @@ body {
    ======================================== */
 
 .acts-section {
-  /* background-color: var(--black-bg); */
-  background-image: url('/acts_bg.jpg');
+  background-image: url('/background/Steltenloper_gentleman_jongleren_kegels_B.jpg');
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply;
@@ -528,6 +578,9 @@ body {
   }
 }
 @media (max-width: 1023px) {
+  .acts-section {
+    background-image: url('/background/Steltenloper_gentleman_jongleren_kegels_M.jpg');
+  }
   .acts-grid {
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
@@ -543,6 +596,9 @@ body {
 }
 
 @media (max-width: 767px) {
+  .acts-section {
+    background-image: url('/background/Steltenloper_gentleman_jongleren_kegels_S.jpg');
+  }
   .acts-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
@@ -660,7 +716,7 @@ body {
 .contact-section {
   position: relative;
   width: 100%;
-  background-image: url('/contact_bg.jpg');
+  background-image: url('/background/Permormer_fire_artist_flame_act_B.jpg');
   background-size: cover;
   background-position: center;
   padding: 60px 0;
@@ -685,7 +741,7 @@ body {
 .contact-content {
   position: relative;
   z-index: 2;
-  max-width: 900px;
+  max-width: 680px;
   margin-left: auto;
   padding-right: var(--side-padding);
 }
@@ -754,6 +810,7 @@ body {
 
 @media (max-width: 1023px) {
   .contact-section {
+    background-image: url('/background/Permormer_fire_artist_flame_act_M.jpg');
     height: auto;
   }
   .contact-content {
@@ -770,6 +827,11 @@ body {
   }
 }
 
+@media (max-width: 767px) {
+  .contact-section {
+    background-image: url('/background/Permormer_fire_artist_flame_act_S.jpg');
+  }
+}
 /* ========================================
    PARTNERS SECTION - 80px LOGOS
    ======================================== */
