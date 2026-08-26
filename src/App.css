@@ -16,9 +16,9 @@
 }
 
 @media (min-width: 1366px) {
-:root {
-  --side-padding: 0px;
-}
+  :root {
+    --side-padding: 40px;
+  }
 }
 
 * {
@@ -131,9 +131,6 @@ body {
   list-style: none !important;
   height: 80px !important;
   align-items: center !important;
-}
-
-.navbar-nav .nav-item {
 }
 
 .navbar-nav .nav-link {
