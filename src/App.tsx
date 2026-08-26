@@ -165,16 +165,18 @@ function App() {
 
       <nav className="d-flex mynavbar fixed-top contzainer">
         <div className='nav-wrapper container'>
-          <div className='nav-content'>
+          <div className='nav-content justify-content-between'>
           <div>
             <a className="navbar-brand" href="#home">
               <img src="./logo.png" alt="Hoogeman" className="logo" />
             </a>
           </div>
-          <div className="nav-item"><a href="#home">Home</a></div>
-          <div className="nav-item"><a href="#info">Info</a></div>
-          <div className="nav-item"><a href="#acts">Acts</a></div>
-          <div className="nav-item"><a href="#contact">Contact</a></div>
+          <div className="d-flex">
+            <div className="nav-item d-none d-sm-block"><a href="#home">Home</a></div>
+            <div className="nav-item d-none d-sm-block"><a href="#info">Info</a></div>
+            <div className="nav-item d-none d-sm-block"><a href="#acts">Acts</a></div>
+            <div className="nav-item d-none d-sm-block"><a href="#contact">Contact</a></div>
+          </div>
         </div>
         </div>
       </nav>

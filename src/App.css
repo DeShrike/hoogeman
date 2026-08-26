@@ -15,6 +15,12 @@
   --side-padding: 40px;
 }
 
+@media (min-width: 1366px) {
+:root {
+  --side-padding: 0px;
+}
+}
+
 * {
   margin: 0;
   padding: 0;
