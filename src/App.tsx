@@ -163,7 +163,7 @@ function App() {
         </div>
       </nav> */}
 
-      <nav className="d-flex mynavbar fixed-top contzainer">
+      <nav className="d-flex mynavbar fixed-top ">
         <div className='nav-wrapper container'>
           <div className='nav-content justify-content-between'>
           <div>
