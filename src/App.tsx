@@ -91,11 +91,11 @@ function App() {
       description: 'Hoog boven de menigte rijst hij op, een monumentale verschijning, recht uit het dodenrijk. Alto Calavera is een wandelend altaar: een kleurrijk beschilderd doodshoofd, een sombrero zo breed als de horizon en een mantel bezaaid met bloemen. Met zijn prachtig versierde mariachi-outfit belichaamt hij de geest van <i>Día de los Meurtos</i>: niet als iets angstigs, maar als een vierend, groots en onvergetelijk spektakel. Deze elegante calavera dwaalt boven het publiek, nodigt uit, verrast en laat niemand onbewogen. Bij Alto Calavera is <i>La Muerte</i> niet het einde maar het begin van het feest.'
     },
     {
-      id: 'act-10',
-      name: 'Coming Soon',
+      id: 'kauwgombola',
+      name: 'Kauwgombola',
       url: 'acts/Hosting_Act_Straattheater_Animatie.jpg',
       urlHires: 'acts/Hosting_Act_Straattheater_Animatie_SQ.jpg',
-      description: 'Nog meer spektakel aan het horizon. Volg ons voor updates!'
+      description: 'De Kauwgombola is een unieke apparaat in steampunk stijl. Is het een LunaPark, een kauwgombalautomaat, een bingo of een tombola — geen van allen en toch alles tegelijk. Kinderen ontdekken techniek terwijl ze spelen, met altijd prijs: vaak een proevertje, soms een verrassend mooie beloning. Het toestel kan mobiel ingezet worden of statisch opgesteld. Het werkt met eigen houten munten of gewoon met een 2‑euromunt. Binnenin of naast het apparaat staat een begeleidend personage dat zich volledig laat gaan als echte kermisventer, compleet met vrolijke soundeffects en een flinke portie enthousiasme. Plezier gegarandeerd.'
     },
     {
       id: 'act-11',
