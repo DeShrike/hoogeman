@@ -32,14 +32,14 @@ function App() {
       name: 'Lord Bubbleton',
       url: 'acts/Festival_Lord_Bubbleton_Zeepbelen_Steltenloper.jpg',
       urlHires: 'acts/Festival_Lord_Bubbleton_Zeepbelen_Steltenloper_SQ.jpg',
-      description: 'De meester van de verwondering. Lord Bubbleton creëert een magische wereld met zeepbellen in alle formaten: van klein en verfijnd tot spectaculair reusachtig. Voor extra spektakel vult hij zijn act aan met indrukwekkende vuureffecten. Tijdens winterevents wordt hij een lichtbaken dankzij geïntegreerde verlichting. Lord Bubbleton is een sterke solo-act, maar schittert extra in duo met Lady Bubbleton. Vaak wordt hij vergezeld door zijn helper Bobby Bell, die ter plaatse workshops reuzenbellen maken verzorgt.'
+      description: 'Lord Bubbleton is de grootmeester van verwondering. Met zeepbellen in alle formaten — van subtiel klein tot indrukwekkend reusachtig — bouwt hij een eigen, betoverende wereld. Zijn iconische hoed zorgt ervoor dat kleine bellen speels om hem heen dwarrelen. Voor extra impact combineert hij zijn act met krachtige vuureffecten, en tijdens winterevents straalt hij als een lichtbaken dankzij geïntegreerde verlichting. Hij is een sterke solo‑act, maar schittert nog meer in duo met Lady Bubbleton. Vaak wordt hij vergezeld door zijn helper Bobby Bell, die ter plaatse interactieve workshops reuzenbellen maken verzorgt in echte Bubbleton‑stijl.'
     },
     {
       id: 'hdmi',
       name: 'HDMI',
       url: 'acts/Steltenloper_Hdmi_Fiets_Disco_Party.jpg',
       urlHires: 'acts/Steltenloper_Hdmi_Fiets_Disco_Party_SQ.jpg',
-      description: 'Een unieke verschijning die u nergens anders zult zien! Karakter \'Didi Sco\' fietst op een volledig op maat gemaakte disco-fiets... op stelten! Deze mobiele interventie is een rijdend spektakelstuk, uitgerust met een 200W sound system, discobal, rookmachines, LED-verlichting en confettikanonnen. De act is volledig te personaliseren naar uw wens en kan worden uitgebreid met twee extra dansers. Dé perfecte eyecatcher voor festivals, wielerwedstrijden en straattheater.'
+      description: 'Een unieke verschijning die u nergens anders zult zien! Karakter \'Didi Sco\' fietst op een volledig op maat gemaakte disco-fiets... op stelten! Deze mobiele interventie is een rijdend spektakelstuk, uitgerust met een 200W geluidssystem, discobal, rookmachine, LED-verlichting en confettikanonnen. De act is volledig te personaliseren naar uw wens en kan worden uitgebreid met twee extra dansers of rollerskates. Dé perfecte eyecatcher voor festivals, wielerwedstrijden en straattheater.'
     },
     {
       id: 'kapitein-langpoot',
@@ -60,7 +60,7 @@ function App() {
       name: 'The Jester',
       url: 'acts/Jester_Stelten_Animatie_Stadsfeest_Straattheater.jpg',
       urlHires: 'acts/Jester_Stelten_Animatie_Stadsfeest_Straattheater_SQ.jpg',
-      description: 'De klassieke nar in een magisch jasje. Gewapend met zijn magische scepter brengt hij humor en mysterie naar uw evenement. Tijdens avond- of donkere events \'tovert\' hij letterlijk met licht, waardoor hij een magisch effect creëert. Ook voor winterevents is The Jester een geliefde gast dankzij zijn spectaculaire lichteffecten die de donkere dagen direct opvrolijken.'
+      description: 'De klassieke nar in een nieuw, betoverend jasje. Met zijn scepter brengt hij humor en een vleugje mysterie naar elk evenement. Tijdens avond- of donkere momenten laat hij licht tot leven komen, wat zorgt voor een opvallend visueel effect. Ook op winterevents is The Jester een graag geziene gast dankzij zijn spectaculaire lichtaccenten die de sombere dagen meteen opfleuren.'
     },
     {
       id: 'dr-steam',
@@ -74,7 +74,7 @@ function App() {
       name: 'Bobby Bell',
       url: 'acts/Bobby_Bell_Zeepbellen_Workshop_Kinderanimatie.jpg',
       urlHires: 'acts/Bobby_Bell_Zeepbellen_Workshop_Kinderanimatie_SQ.jpg',
-      description: 'De trouwe rechterhand van Lord Bubbleton. Bobby Bell werkt vanaf de grond (geen stelten), waardoor hij de ideale link vormt tussen het publiek en de hoge karakters. Hij is een meester in het verzorgen van interactieve workshops reuzezeepbellen maken, geheel in de unieke Bubbleton-stijl. Net als de rest van de familie is Bobby Bell uitgerust met vuureffecten en sfeervolle verlichting voor winterse gelegenheden.'
+      description: 'De trouwe rechterhand van Lord Bubbleton. Bobby Bell werkt vanaf de grond (geen stelten), waardoor hij de ideale link vormt tussen het publiek en de hoge karakters. Hij is een meester in het verzorgen van interactieve workshops reuzezeepbellen maken, geheel in de unieke Bubbleton-stijl. Ook Bobby Bell kan zorgen voor vuureffecten en sfeervolle verlichting bij winterse gelegenheden.'
     },
     {
       id: 'jack-pumpkin',
