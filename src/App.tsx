@@ -166,12 +166,16 @@ function App() {
       <nav className="d-flex mynavbar fixed-top ">
         <div className='nav-wrapper container'>
           <div className='nav-content justify-content-between'>
-          <div>
+          <div className="d-flex">
             <a className="navbar-brand" href="#home">
               <img src="./logo.png" alt="Hoogeman" className="logo" />
             </a>
           </div>
-          <div className="d-flex">
+          <div className="nav-item nav-info d-flex flex-column">
+            <a  href="mailto:info@hoogeman.be">info@hoogeman.be</a>
+            <a href="tel:+32476568298">+32 476 56 82 98</a>
+          </div>
+          <div className="d-flex ms-auto">
             <div className="nav-item d-none d-sm-block"><a href="#home">Home</a></div>
             <div className="nav-item d-none d-sm-block"><a href="#info">Info</a></div>
             <div className="nav-item d-none d-sm-block"><a href="#acts">Acts</a></div>
@@ -347,8 +351,8 @@ function App() {
               Vertel ons uw plannen & wij maken er magie van!
             </p>
             <div className="contact-info">
-              <p className="contact-email"><strong>Email:</strong> info@hoogeman.be</p>
-              <p className="contact-phone"><strong>Telefoon:</strong> +32 476 56 82 98</p>
+              <p className="contact-email"><strong>Email:</strong> <a href="mailto:info@hoogeman.be">info@hoogeman.be</a></p>
+              <p className="contact-phone"><strong>Telefoon:</strong> <a href="tel:+32476568298">+32 476 56 82 98</a></p>
             </div>
           </div>
         </div>

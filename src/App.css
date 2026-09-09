@@ -99,7 +99,11 @@ body {
     object-fit: contain !important;
   }
 }
+.nav-info a
+{
 
+  line-height: 1.5rem !important;
+}
 .navbar {
   background: linear-gradient(180deg, rgba(5, 159, 159, 0.95) 0%, rgba(5, 159, 159, 0.75) 100%) !important;
   backdrop-filter: blur(10px);
@@ -812,9 +816,16 @@ body {
 .contact-email,
 .contact-phone {
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   color: var(--white-bg);
   font-weight: 400;
+}
+
+.contact-email a,
+.contact-phone a {
+  color: var(--white-bg);
+  font-weight: 400;
+  text-decoration: none;
 }
 
 @media (max-width: 1023px) {
