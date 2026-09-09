@@ -404,7 +404,7 @@ body {
 
 .info-item p {
   font-family: 'Lora', serif;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.8;
   color: var(--gray-text);
 }
@@ -462,7 +462,7 @@ body {
     font-size: 1rem;
   }
   .info-item p {
-    font-size: 0.9rem;
+    font-size: 1.0rem;
   }
   .info-circle {
     width: 120px;
@@ -773,7 +773,7 @@ body {
 
 .contact-text {
   font-family: 'Lora', serif;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.8;
   color: var(--white-bg);
   margin-bottom: 30px;
@@ -784,7 +784,7 @@ body {
 
 .contact-subtitle {
   font-family: 'League Gothic', sans-serif;
-  font-size: 26px;
+  font-size: 30px;
   color: var(--white-bg);
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -795,7 +795,7 @@ body {
 
 .contact-description {
   font-family: 'Lora', serif;
-  font-size: 14px;
+  font-size: 18px;
   color: var(--white-bg);
   margin-bottom: 35px;
   text-align: right;
@@ -806,7 +806,7 @@ body {
 .contact-info {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 0px;
   /* border-top: 2px solid var(--light-blue); */
   padding-top: 25px;
   text-align: right;
