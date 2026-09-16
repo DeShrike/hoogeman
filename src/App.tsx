@@ -245,9 +245,10 @@ function App() {
                   <h2>Kwaliteitsvol Entertainment</h2>
                   <h3>Door 20 jaar ervaring</h3>
                   <p>
-                    Met uitgebreide ervaring op diverse festivals, bedrijfsfeesten en een
-                    scala aan vaardigheden, biedt Hoogeman de deskundigheid die u nodig
-                    heeft om uw evenement onvergetelijk te maken.
+                    Met uitgebreide ervaring op talrijke festivals, evenementen en bedrijfsfeesten 
+                    brengt Hoogeman precies de expertise die uw publiek verwacht. 
+                    Met een brede waaier aan vaardigheden zorgen we ervoor om elke setting tot 
+                    leven te brengen en uw evenement alvast onvergetelijk te maken.
                   </p>
                 </div>
 
