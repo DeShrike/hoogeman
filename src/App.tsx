@@ -93,16 +93,16 @@ function App() {
     {
       id: 'kauwgombola',
       name: 'Kauwgombola',
-      url: 'acts/Hosting_Act_Straattheater_Animatie.jpg',
-      urlHires: 'acts/Hosting_Act_Straattheater_Animatie_SQ.jpg',
+      url: 'acts/Mobiele_Act_Straattheater_Steampunk_Technologie_Kauwgombola.jpg',
+      urlHires: 'acts/Mobiele_Act_Straattheater_Steampunk_Technologie_Kauwgombola_SQ.jpg',
       description: 'De Kauwgombola is een unieke apparaat in steampunk stijl. Is het een LunaPark, een kauwgombalautomaat, een bingo of een tombola — geen van allen en toch alles tegelijk. Kinderen ontdekken techniek terwijl ze spelen, met altijd prijs: vaak een proevertje, soms een verrassend mooie beloning. Het toestel kan mobiel ingezet worden of statisch opgesteld. Het werkt met eigen houten munten of gewoon met een 2‑euromunt. Binnenin of naast het apparaat staat een begeleidend personage dat zich volledig laat gaan als echte kermisventer, compleet met vrolijke soundeffects en een flinke portie enthousiasme. Plezier gegarandeerd.'
     },
     {
-      id: 'act-11',
-      name: 'Mystery Act',
-      url: 'acts/Hosting_Act_Straattheater_Animatie.jpg',
-      urlHires: 'acts/Hosting_Act_Straattheater_Animatie_SQ.jpg',
-      description: 'Wat zal het volgende karakter brengen? Laat je verrassen door onze creativiteit!'
+      id: 'kinkygeorge',
+      name: 'Kinky George',
+      url: 'acts/Straattheater_Mobiel_Kinky_George_Festival.jpg',
+      urlHires: 'acts/Straattheater_Mobiel_Kinky_George_Festival_SQ.jpg',
+      description: 'Kinky George trekt rond met zijn mobiele Free Spanking Boutique, een humoristische kermisact waar bezoekers op een luchtige manier hun grenzen ontdekken. Met grappige anekdotes, theatrale flair en een reeks ludieke attributen — tot een grote showzweep toe — zorgt hij voor spanning, plezier en een flinke lach. Alles gebeurt veilig, vriendelijk en volledig vrijwillig, met George als enthousiaste kermisventer die het publiek moeiteloos meesleept.'
     },
     {
       id: 'more',
