@@ -7,6 +7,12 @@ function App() {
   const [autoCarousel, setAutoCarousel] = useState(true);
 
   // ===== CAROUSEL IMAGES =====
+  const heroAlt = [
+    "Hoogeman - Steltenloper met zeepbellen - Lord Bubbleton",
+    "Hoogeman - Performer Vuurshow",
+    "Hoogeman - Steltenloper met zeepbellen - Lady Bubbleton",
+  ];
+
   const heroImages = [
     'carousel/Stiltwalker_Hoogeman_Lord_Bubbleton_CB.jpg?auto=compress&cs=tinysrgb&w=1920',
     'carousel/Artist_Hoogeman_Fire_Eating_CB.jpg?auto=compress&cs=tinysrgb&w=1920',
@@ -192,7 +198,7 @@ function App() {
           <div className="carousel carousel-lg">
             {heroImages.map((img, index) => (
               <div key={`lg-${index}`} className={`carousel-slide ${index === currentSlide ? 'active' : ''}`}>
-                <img src={img} alt={`Slide ${index + 1}`} />
+                <img src={img} alt={heroAlt[index]} />
               </div>
             ))}
           </div>
@@ -201,7 +207,7 @@ function App() {
           <div className="carousel carousel-md">
             {heroImagesMd.map((img, index) => (
               <div key={`md-${index}`} className={`carousel-slide ${index === currentSlide ? 'active' : ''}`}>
-                <img src={img} alt={`Slide ${index + 1}`} />
+                <img src={img} alt={heroAlt[index]} />
               </div>
             ))}
           </div>
@@ -210,7 +216,7 @@ function App() {
           <div className="carousel carousel-sm">
             {heroImagesSm.map((img, index) => (
               <div key={`sm-${index}`} className={`carousel-slide ${index === currentSlide ? 'active' : ''}`}>
-                <img src={img} alt={`Slide ${index + 1}`} />
+                <img src={img} alt={heroAlt[index]} />
               </div>
             ))}
           </div>
