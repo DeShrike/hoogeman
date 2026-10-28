@@ -181,6 +181,9 @@ function App() {
             <a  href="mailto:info@hoogeman.be">info@hoogeman.be</a>
             <a href="tel:+32476568298">+32 476 56 82 98</a>
           </div>
+          <div className="language-switcher" aria-label="Language">
+            <a href="EN.html" lang="en" aria-label="English">EN</a><span>|</span><a href="FR.html" lang="fr" aria-label="Français">FR</a>
+          </div>
           <div className="d-flex ms-auto">
             <div className="nav-item d-none d-sm-block"><a href="#home">Home</a></div>
             <div className="nav-item d-none d-sm-block"><a href="#info">Info</a></div>
