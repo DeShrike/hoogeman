@@ -14,21 +14,21 @@ function App() {
   ];
 
   const heroImages = [
-    'carousel/Stiltwalker_Hoogeman_Lord_Bubbleton_CB.jpg?auto=compress&cs=tinysrgb&w=1920',
-    'carousel/Artist_Hoogeman_Fire_Eating_CB.jpg?auto=compress&cs=tinysrgb&w=1920',
-    'carousel/Stiltwalker_Hoogeman_Lady_Bubbleton_CB.jpg?auto=compress&cs=tinysrgb&w=1920'
+    'carousel/Steltenloper_Hoogeman_Lord_Bubbleton_CB.webp',
+    'carousel/Artiest_vuurshow_Hoogeman_CB.webp',
+    'carousel/Steltenloper_Hoogeman_Lady_Bubbleton_CB.webp'
   ];
 
   const heroImagesMd = [
-    'carousel/Stiltwalker_Hoogeman_Lord_Bubbleton_CM.jpg?auto=compress&cs=tinysrgb&w=1920',
-    'carousel/Artist_Hoogeman_Fire_Eating_CM.jpg?auto=compress&cs=tinysrgb&w=1920',
-    'carousel/Stiltwalker_Hoogeman_Lady_Bubbleton_CM.jpg?auto=compress&cs=tinysrgb&w=1920'
+    'carousel/Steltenloper_Hoogeman_Lord_Bubbleton_CM.webp',
+    'carousel/Artiest_vuurshow_Hoogeman_CM.webp',
+    'carousel/Steltenloper_Hoogeman_Lady_Bubbleton_CM.webp'
   ];
 
   const heroImagesSm = [
-    'carousel/Stiltwalker_Hoogeman_Lord_Bubbleton_CS.jpg?auto=compress&cs=tinysrgb&w=1920',
-    'carousel/Artist_Hoogeman_Fire_Eating_CS.jpg?auto=compress&cs=tinysrgb&w=1920',
-    'carousel/Stiltwalker_Hoogeman_Lady_Bubbleton_CS.jpg?auto=compress&cs=tinysrgb&w=1920'
+    'carousel/Steltenloper_Hoogeman_Lord_Bubbleton_CS.webp',
+    'carousel/Artiest_vuurshow_Hoogeman_CS.webp',
+    'carousel/Steltenloper_Hoogeman_Lady_Bubbleton_CS.webp'
   ];
 
   // ===== ACTS DATA (12 ACTS) =====
@@ -36,85 +36,85 @@ function App() {
     {
       id: 'lord-bubbleton',
       name: 'Lord Bubbleton',
-      url: 'acts/Festival_Lord_Bubbleton_Zeepbelen_Steltenloper.jpg',
-      urlHires: 'acts/Festival_Lord_Bubbleton_Zeepbelen_Steltenloper_SQ.jpg',
+      url: 'acts/Festival_Lord_Bubbleton_Zeepbelen_Steltenloper.webp',
+      urlHires: 'acts/Festival_Lord_Bubbleton_Zeepbelen_Steltenloper_SQ.webp',
       description: 'Lord Bubbleton is de grootmeester van verwondering. Met zeepbellen in alle formaten — van subtiel klein tot indrukwekkend reusachtig — bouwt hij een eigen, betoverende wereld. Zijn iconische hoed zorgt ervoor dat kleine bellen speels om hem heen dwarrelen. Voor extra impact combineert hij zijn act met krachtige vuureffecten, en tijdens winterevents straalt hij als een lichtbaken dankzij geïntegreerde verlichting. Hij is een sterke solo‑act, maar schittert nog meer in duo met Lady Bubbleton. Vaak wordt hij vergezeld door zijn helper Bobby Bell, die ter plaatse interactieve workshops reuzenbellen maken verzorgt in echte Bubbleton‑stijl.'
     },
     {
       id: 'hdmi',
       name: 'HDMI',
-      url: 'acts/Steltenloper_Hdmi_Fiets_Disco_Party.jpg',
-      urlHires: 'acts/Steltenloper_Hdmi_Fiets_Disco_Party_SQ.jpg',
+      url: 'acts/Steltenloper_Hdmi_Fiets_Disco_Party.webp',
+      urlHires: 'acts/Steltenloper_Hdmi_Fiets_Disco_Party_SQ.webp',
       description: 'Een unieke verschijning die u nergens anders zult zien! Karakter \'Didi Sco\' fietst op een volledig op maat gemaakte disco-fiets... op stelten! Deze mobiele interventie is een rijdend spektakelstuk, uitgerust met een 200W geluidssystem, discobal, rookmachine, LED-verlichting en confettikanonnen. De act is volledig te personaliseren naar uw wens en kan worden uitgebreid met twee extra dansers of rollerskates. Dé perfecte eyecatcher voor festivals, wielerwedstrijden en straattheater.'
     },
     {
       id: 'kapitein-langpoot',
       name: 'Kapitein Langpoot',
-      url: 'acts/Steltenloper_Piraat_Animatie_Hoogeman.jpg',
-      urlHires: 'acts/Steltenloper_Piraat_Animatie_Hoogeman_SQ.jpg',
+      url: 'acts/Steltenloper_Piraat_Animatie_Hoogeman.webp',
+      urlHires: 'acts/Steltenloper_Piraat_Animatie_Hoogeman_SQ.webp',
       description: 'Deze piraat op zeer hoge poten brengt vermaak en pure verwondering. Met zijn gigantische laarzen is hij een imposante verschijning die boven elk publiek uitsteekt. Indien de ondergrond het toelaat, gooit hij nog een extra troef in de strijd: een spectaculaire jongleer-act met vlijmscherpe messen. Een avontuurlijk karakter dat interactie en spanning perfect weet te combineren.'
     },
     {
       id: 'lady-bubbleton',
       name: 'Lady Bubbleton',
-      url: 'acts/Lady_Bubbleton_Stelten_Act_Festival.jpg',
-      urlHires: 'acts/Lady_Bubbleton_Stelten_Act_Festival_SQ.jpg',
+      url: 'acts/Lady_Bubbleton_Stelten_Act_Festival.webp',
+      urlHires: 'acts/Lady_Bubbleton_Stelten_Act_Festival_SQ.webp',
       description: 'De majesteitelijke partner van Lord Bubbleton. Met haar imposante grote rok is zij een verschijning die direct de aandacht grijpt. Lady Bubbleton is niet alleen een plaatje om naar te kijken; ze deelt bellen, snoepjes of zelfs gepersonaliseerde boodschappen uit aan uw gasten. In de wintermaanden is zij prachtig verlicht, wat haar een sprookjesachtige gloed geeft. Ze vormt de perfecte koppel-act met Lord Bubbleton voor een compleet plaatje.'
     },
     {
       id: 'the-jester',
       name: 'The Jester',
-      url: 'acts/Jester_Stelten_Animatie_Stadsfeest_Straattheater.jpg',
-      urlHires: 'acts/Jester_Stelten_Animatie_Stadsfeest_Straattheater_SQ.jpg',
+      url: 'acts/Jester_Stelten_Animatie_Stadsfeest_Straattheater.webp',
+      urlHires: 'acts/Jester_Stelten_Animatie_Stadsfeest_Straattheater_SQ.webp',
       description: 'De klassieke nar in een nieuw, betoverend jasje. Met zijn scepter brengt hij humor en een vleugje mysterie naar elk evenement. Tijdens avond- of donkere momenten laat hij licht tot leven komen, wat zorgt voor een opvallend visueel effect. Ook op winterevents is The Jester een graag geziene gast dankzij zijn spectaculaire lichtaccenten die de sombere dagen meteen opfleuren.'
     },
     {
       id: 'dr-steam',
       name: 'Dr. Steam',
-      url: 'acts/Vuurshow_Steampunk_Act_Zeepbellen.jpg',
-      urlHires: 'acts/Vuurshow_Steampunk_Act_Zeepbellen_SQ.jpg',
+      url: 'acts/Vuurshow_Steampunk_Act_Zeepbellen.webp',
+      urlHires: 'acts/Vuurshow_Steampunk_Act_Zeepbellen_SQ.webp',
       description: 'Een visueel hoogstandje in de wereld van Steampunk. Dr. Steam combineert een krachtige, mechanische uitstraling met de rauwe elementen van vuur en licht. Deze act is technisch zeer sterk en visueel indrukwekkend, waardoor hij perfect past bij evenementen waar een stoere, artistieke sfeer gewenst is. De combinatie van licht- en vuureffecten maakt hem tot een onvergetelijke verschijning.'
     },
     {
       id: 'bobby-bell',
       name: 'Bobby Bell',
-      url: 'acts/Bobby_Bell_Zeepbellen_Workshop_Kinderanimatie.jpg',
-      urlHires: 'acts/Bobby_Bell_Zeepbellen_Workshop_Kinderanimatie_SQ.jpg',
+      url: 'acts/Bobby_Bell_Zeepbellen_Workshop_Kinderanimatie.webp',
+      urlHires: 'acts/Bobby_Bell_Zeepbellen_Workshop_Kinderanimatie_SQ.webp',
       description: 'De trouwe rechterhand van Lord Bubbleton. Bobby Bell werkt vanaf de grond (geen stelten), waardoor hij de ideale link vormt tussen het publiek en de hoge karakters. Hij is een meester in het verzorgen van interactieve workshops reuzezeepbellen maken, geheel in de unieke Bubbleton-stijl. Ook Bobby Bell kan zorgen voor vuureffecten en sfeervolle verlichting bij winterse gelegenheden.'
     },
     {
       id: 'jack-pumpkin',
       name: 'Jack Pumpkin',
-      url: 'acts/Steltenloper_Halloween_Pompoen_Act_Straattheater.jpg',
-      urlHires: 'acts/Steltenloper_Halloween_Pompoen_Act_Straattheater_SQ.jpg',
+      url: 'acts/Steltenloper_Halloween_Pompoen_Act_Straattheater.webp',
+      urlHires: 'acts/Steltenloper_Halloween_Pompoen_Act_Straattheater_SQ.webp',
       description: 'Wanneer deze gigantische vogelverschrikker tot leven komt, weet u niet wat u ziet! Jack Pumpkin is de ultieme eyecatcher voor elk herfst- of griezelevenement. Met zijn indrukwekkende hoogte, mysterieuze rookeffecten en ingebouwde verlichting zorgt hij voor een unieke visuele impact waar nog lang over nagepraat zal worden.'
     },
     {
       id: 'alto-calavera',
       name: 'Alto Calavera',
-      url: 'acts/Steltenloper_Dia_de_los_Muertos_Halloween_skull_flowers.jpg',
-      urlHires: 'acts/Steltenloper_Dia_de_los_Muertos_Halloween_skull_flowers_SQ.jpg',
+      url: 'acts/Steltenloper_Dia_de_los_Muertos_Halloween_schedel_bloemen.webp',
+      urlHires: 'acts/Steltenloper_Dia_de_los_Muertos_Halloween_schedel_bloemen_SQ.webp',
       description: 'Hoog boven de menigte rijst hij op, een monumentale verschijning, recht uit het dodenrijk. Alto Calavera is een wandelend altaar: een kleurrijk beschilderd doodshoofd, een sombrero zo breed als de horizon en een mantel bezaaid met bloemen. Met zijn prachtig versierde mariachi-outfit belichaamt hij de geest van <i>Día de los Meurtos</i>: niet als iets angstigs, maar als een vierend, groots en onvergetelijk spektakel. Deze elegante calavera dwaalt boven het publiek, nodigt uit, verrast en laat niemand onbewogen. Bij Alto Calavera is <i>La Muerte</i> niet het einde maar het begin van het feest.'
     },
     {
       id: 'kauwgombola',
       name: 'Kauwgombola',
-      url: 'acts/Mobiele_Act_Straattheater_Steampunk_Technologie_Kauwgombola.jpg',
-      urlHires: 'acts/Mobiele_Act_Straattheater_Steampunk_Technologie_Kauwgombola_SQ.jpg',
+      url: 'acts/Mobiele_Act_Straattheater_Steampunk_Technologie_Kauwgombola.webp',
+      urlHires: 'acts/Mobiele_Act_Straattheater_Steampunk_Technologie_Kauwgombola_SQ.webp',
       description: 'De Kauwgombola is een unieke apparaat in steampunk stijl. Is het een LunaPark, een kauwgombalautomaat, een bingo of een tombola — geen van allen en toch alles tegelijk. Kinderen ontdekken techniek terwijl ze spelen, met altijd prijs: vaak een proevertje, soms een verrassend mooie beloning. Het toestel kan mobiel ingezet worden of statisch opgesteld. Het werkt met eigen houten munten of gewoon met een 2‑euromunt. Binnenin of naast het apparaat staat een begeleidend personage dat zich volledig laat gaan als echte kermisventer, compleet met vrolijke soundeffects en een flinke portie enthousiasme. Plezier gegarandeerd.'
     },
     {
       id: 'kinkygeorge',
       name: 'Kinky George',
-      url: 'acts/Straattheater_Mobiel_Kinky_George_Festival.jpg',
-      urlHires: 'acts/Straattheater_Mobiel_Kinky_George_Festival_SQ.jpg',
+      url: 'acts/Straattheater_Mobiel_Kinky_George_Festival.webp',
+      urlHires: 'acts/Straattheater_Mobiel_Kinky_George_Festival_SQ.webp',
       description: 'Kinky George trekt rond met zijn mobiele Free Spanking Boutique, een humoristische kermisact waar bezoekers op een luchtige manier hun grenzen ontdekken. Met grappige anekdotes, theatrale flair en een reeks ludieke attributen — tot een grote showzweep toe — zorgt hij voor spanning, plezier en een flinke lach. Alles gebeurt veilig, vriendelijk en volledig vrijwillig, met George als enthousiaste kermisventer die het publiek moeiteloos meesleept.'
     },
     {
       id: 'more',
       name: 'En meer...',
-      url: 'acts/Hosting_Act_Straattheater_Animatie.jpg',
-      urlHires: 'acts/Hosting_Act_Straattheater_Animatie_SQ.jpg',
+      url: 'acts/Ontvangst_Act_Straattheater_Animatie.webp',
+      urlHires: 'acts/Ontvangst_Act_Straattheater_Animatie_SQ.webp',
       description: 'Bij Hoogeman stopt het niet bij deze karakters. Onze expertise strekt zich uit tot een volledig arsenaal aan nog meer acts en Karakters. Aangevuld met jonglerie, acrobatie, vuurshows enz. Heeft u een specifiek thema of een unieke wens? Wij denken graag met u mee vanaf de eerste schets tot de uiteindelijke performance. Onze passie ligt in het creëren van entertainment op maat om van uw evenement een ongekend succes te maken.'
     }
   ];
@@ -281,13 +281,13 @@ function App() {
 
               <div className="info-circles">
                 <div className="circle info-circle">
-                  <img src="Stelten_Jongleren_Clown_Hoogeman.jpg" alt="Entertainment" loading="lazy" />
+                  <img src="Stelten_Jongleren_Clown_Hoogeman.webp" alt="Entertainment" loading="lazy" />
                 </div>
                 <div className="circle info-circle">
-                  <img src="Jester_Steltenloper_Detail_Kostuum.jpg" alt="Kostuumontwerp" loading="lazy" />
+                  <img src="Jester_Steltenloper_Detail_Kostuum.webp" alt="Kostuumontwerp" loading="lazy" />
                 </div>
                 <div className="circle info-circle">
-                  <img src="Uniek_evenement_Op_Maat.jpg" alt="Beleving op maat" loading="lazy" />
+                  <img src="Uniek_evenement_Op_Maat.webp" alt="Beleving op maat" loading="lazy" />
                 </div>
               </div>
             </div>
@@ -370,34 +370,34 @@ function App() {
         <div className="container">
           <div className="partners-grid">
             <div className="partner-logo">
-              <img src="references/logo_zillion.jpg" alt="Zillion" loading="lazy" />
+              <img src="references/logo_zillion.webp" alt="Zillion" loading="lazy" />
             </div>
             <div className="partner-logo">
-              <img src="references/logo_rock_ternat.jpg" alt="Rock Ternat" loading="lazy" />
+              <img src="references/logo_rock_ternat.webp" alt="Rock Ternat" loading="lazy" />
             </div>
             <div className="partner-logo">
-              <img src="references/logo_waailand.jpg" alt="Waailand Festival" loading="lazy" />
+              <img src="references/logo_waailand.webp" alt="Waailand Festival" loading="lazy" />
             </div>
             <div className="partner-logo">
-              <img src="references/logo_tomorrowland.jpg" alt="Tomorrowland" loading="lazy" />
+              <img src="references/logo_tomorrowland.webp" alt="Tomorrowland" loading="lazy" />
             </div>
             <div className="partner-logo">
-              <img src="references/logo_retro_empire.jpg" alt="Retro Empire" loading="lazy" />
+              <img src="references/logo_retro_empire.webp" alt="Retro Empire" loading="lazy" />
             </div>
             <div className="partner-logo">
-              <img src="references/logo_tesla.jpg" alt="Tesla" loading="lazy" />
+              <img src="references/logo_tesla.webp" alt="Tesla" loading="lazy" />
             </div>
             <div className="partner-logo">
-              <img src="references/logo_laundry_day.jpg" alt="Laundry Day" loading="lazy" />
+              <img src="references/logo_laundry_day.webp" alt="Laundry Day" loading="lazy" />
             </div>
             <div className="partner-logo">
-              <img src="references/logo_elrow_town.jpg" alt="Elrow Town" loading="lazy" />
+              <img src="references/logo_elrow_town.webp" alt="Elrow Town" loading="lazy" />
             </div>
             <div className="partner-logo">
-              <img src="references/logo_cirque_magique.jpg" alt="Cirque Magique" loading="lazy" />
+              <img src="references/logo_cirque_magique.webp" alt="Cirque Magique" loading="lazy" />
             </div>
             <div className="partner-logo">
-              <img src="references/logo_12_inch_lovers.jpg" alt="12 Inch Lovers" loading="lazy" />
+              <img src="references/logo_12_inch_lovers.webp" alt="12 Inch Lovers" loading="lazy" />
             </div>
           </div>
         </div>

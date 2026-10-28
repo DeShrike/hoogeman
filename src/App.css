@@ -335,7 +335,7 @@ body {
 
 .info-section {
   background: linear-gradient(135deg, #1a1a1a 0%, #0a0a0a 100%);
-  background-image: url('/background/Hoogeman_steltenloper_piraat_act_B.jpg');
+  background-image: url('/background/Hoogeman_steltenloper_piraat_act_B.webp');
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply;
@@ -433,7 +433,7 @@ body {
 
 @media (max-width: 1023px) {
   .info-section {
-    background-image: url('/background/Hoogeman_steltenloper_piraat_act_M.jpg');
+    background-image: url('/background/Hoogeman_steltenloper_piraat_act_M.webp');
     background-position: right;
   }
   .info-content {
@@ -453,7 +453,7 @@ body {
 
 @media (max-width: 767px) {
   .info-section {
-    background-image: url('/background/Hoogeman_steltenloper_piraat_act_B.jpg');
+    background-image: url('/background/Hoogeman_steltenloper_piraat_act_B.webp');
     background-position: right;
   }
   .info-item h2 {
@@ -473,7 +473,7 @@ body {
    ======================================== */
 
 .acts-section {
-  background-image: url('/background/Steltenloper_gentleman_jongleren_kegels_B.jpg');
+  background-image: url('/background/Steltenloper_gentleman_jongleren_kegels_B.webp');
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply;
@@ -589,7 +589,7 @@ body {
 }
 @media (max-width: 1023px) {
   .acts-section {
-    background-image: url('/background/Steltenloper_gentleman_jongleren_kegels_M.jpg');
+    background-image: url('/background/Steltenloper_gentleman_jongleren_kegels_M.webp');
   }
   .acts-grid {
     grid-template-columns: repeat(3, 1fr);
@@ -607,7 +607,7 @@ body {
 
 @media (max-width: 767px) {
   .acts-section {
-    background-image: url('/background/Steltenloper_gentleman_jongleren_kegels_S.jpg');
+    background-image: url('/background/Steltenloper_gentleman_jongleren_kegels_S.webp');
   }
   .acts-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -726,7 +726,7 @@ body {
 .contact-section {
   position: relative;
   width: 100%;
-  background-image: url('/background/Permormer_fire_artist_flame_act_B.jpg');
+  background-image: url('/background/Artiest_vuur_show_vlam_act_B.webp');
   background-size: cover;
   background-position: center;
   padding: 60px 0;
@@ -828,7 +828,7 @@ body {
 
 @media (max-width: 1023px) {
   .contact-section {
-    background-image: url('/background/Permormer_fire_artist_flame_act_M.jpg');
+    background-image: url('/background/Artiest_vuur_show_vlam_act_M.webp');
     height: auto;
   }
   .contact-content {
@@ -847,7 +847,7 @@ body {
 
 @media (max-width: 767px) {
   .contact-section {
-    background-image: url('/background/Permormer_fire_artist_flame_act_S.jpg');
+    background-image: url('/background/Artiest_vuur_show_vlam_act_S.webp');
   }
 }
 /* ========================================
