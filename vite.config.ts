@@ -1,4 +1,5 @@
 import { defineConfig } from 'vite';
+import { resolve } from 'path';
 import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
@@ -7,5 +8,14 @@ export default defineConfig({
   base: './',
   optimizeDeps: {
     exclude: ['lucide-react'],
+  },
+  build: {
+  	rollupOptions: {
+  		input: {
+  			main: resolve(__dirname, 'index.html'),
+  			en: resolve(__dirname, 'EN.html'),
+  			fr: resolve(__dirname, 'FR.html'),
+  		},
+  	},
   },
 });
