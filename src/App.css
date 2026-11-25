@@ -170,6 +170,12 @@ body {
   width: 100%;
 }
 
+@media (max-width: 767px) {
+  .mynavbar .nav-content {
+    padding: initial;
+  }
+}
+
 /* ========================================
    HERO SECTION - 688px
    ======================================== */
