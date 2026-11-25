@@ -175,19 +175,19 @@ function App() {
 
 
           <div className='d-flex'>
-            <div className="d-flex">
-              <a className="navbar-brand" href="#home">
-                <img src="./logo.png" alt="Hoogeman" className="logo" />
-              </a>
+              <div className="d-flex">
+                <a className="navbar-brand" href="#home">
+                  <img src="./logo.png" alt="Hoogeman" className="logo" />
+                </a>
+              </div>
+              <div className="nav-item nav-info d-flex flex-column">
+                <a  href="mailto:info@hoogeman.be">info@hoogeman.be</a>
+                <a href="tel:+32476568298">+32 476 56 82 98</a>
+              </div>
+              <div className="language-switcher" aria-label="Language">
+                <a href="EN.html" lang="en" aria-label="English">EN</a><span>|</span><a href="FR.html" lang="fr" aria-label="Français">FR</a>
+              </div>
             </div>
-            <div className="nav-item nav-info d-flex flex-column">
-              <a  href="mailto:info@hoogeman.be">info@hoogeman.be</a>
-              <a href="tel:+32476568298">+32 476 56 82 98</a>
-            </div>
-            <div className="language-switcher" aria-label="Language">
-              <a href="EN.html" lang="en" aria-label="English">EN</a><span>|</span><a href="FR.html" lang="fr" aria-label="Français">FR</a>
-            </div>
-</div>
 
 
             <div className="d-flex ms-auto mymenu">

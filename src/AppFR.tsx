@@ -172,6 +172,9 @@ function App() {
       <nav className="d-flex mynavbar fixed-top ">
         <div className='nav-wrapper container'>
           <div className='nav-content justify-content-between'>
+              
+              <div className='d-flex'>
+
           <div className="d-flex">
             <a className="navbar-brand" href="#home">
               <img src="./logo.png" alt="Hoogeman" className="logo" />
@@ -184,11 +187,13 @@ function App() {
           <div className="language-switcher" aria-label="Language">
             <a href="index.html" lang="nl" aria-label="Nederlands">NL</a><span>|</span><a href="EN.html" lang="en" aria-label="English">EN</a>
           </div>
-          <div className="d-flex ms-auto">
-            <div className="nav-item d-none d-sm-block"><a href="#home">Accueil</a></div>
-            <div className="nav-item d-none d-sm-block"><a href="#info">À propos</a></div>
-            <div className="nav-item d-none d-sm-block"><a href="#acts">Numéros</a></div>
-            <div className="nav-item d-none d-sm-block"><a href="#contact">Contact</a></div>
+          </div>
+
+          <div className="d-flex ms-auto mymenu">
+            <div className="nav-item d-block"><a href="#home">Accueil</a></div>
+            <div className="nav-item d-block"><a href="#info">À propos</a></div>
+            <div className="nav-item d-block"><a href="#acts">Numéros</a></div>
+            <div className="nav-item d-block"><a href="#contact">Contact</a></div>
           </div>
         </div>
         </div>

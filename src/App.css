@@ -50,6 +50,10 @@ body {
   width: 100%;
 }
 
+[id] {
+  scroll-margin-top: 80px !important;
+} 
+
 /* ========================================
    NAVBAR - 80px
    ======================================== */
@@ -182,6 +186,10 @@ body {
   .mymenu {
     margin-left: 0 !important;
   }
+
+  [id] {
+    scroll-margin-top: 100px !important;
+  } 
 }
 
 /* ========================================
